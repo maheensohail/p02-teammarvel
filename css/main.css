@@ -273,21 +273,6 @@ input {
 	padding: 1rem;
 }
 
-ul.img-list {
-    display: inline-block;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-ul.img-list li {
-    display: inline-block;
-    list-style-type: none;
-    margin: 0 1em 1em 0;
-    position: relative;
-    width: 45%;
-}
 
 ul.img-list li:hover span.image-text {
     opacity: 1;
@@ -297,11 +282,6 @@ ul.img-list li:hover span.image-text {
     opacity: 1;
 }
 
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
 span.image-text {
   background: rgba(0,0,0,0.5);
   color: white;
@@ -328,15 +308,6 @@ span.image-text span {
 }
 
 
-ul.img-list {
-  display: inline-block;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-<<<<<<< Updated upstream
 ul.img-list li {
   display: inline-block;
   height: 15em;
@@ -359,6 +330,16 @@ span.image-text {
   opacity: 0;
   -webkit-transition: opacity 0.5s ease-out;
   transition: opacity 0.5s;
+}
+
+ul.img-list li:hover span.image-text {
+  opacity: 1;
+}
+
+span.image-text span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .listing-img {
@@ -390,13 +371,5 @@ span.image-text {
     padding-top: 0;
 }
 
-ul.img-list li:hover span.image-text {
-  opacity: 1;
-}
 
-span.image-text span {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
 
