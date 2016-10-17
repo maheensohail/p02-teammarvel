@@ -119,6 +119,10 @@ input {
     padding-left: 0.5em;
 }
 
+.nav-list {
+    list-style: none;
+}
+
 .nav-main-item {
 	
 	display: inline-block;
