@@ -359,7 +359,7 @@ span.image-text {
   opacity: 0;
   -webkit-transition: opacity 0.5s ease-out;
   transition: opacity 0.5s;
-=======
+}
 
 .listing-img {
     margin-top: 1rem;
@@ -388,7 +388,6 @@ span.image-text {
     line-height: 0.05rem;
     margin-top: 0;
     padding-top: 0;
->>>>>>> Stashed changes
 }
 
 ul.img-list li:hover span.image-text {
