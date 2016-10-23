@@ -3,12 +3,12 @@
 */
 body {
   font-family: "Apercu", Arial, sans-serif;
-  margin: 1rem;
+
   font-size: 0.95rem;
 }
 
 nav{
-  border-bottom: 0.15em solid #333;
+
 }
 
 section {
@@ -71,7 +71,6 @@ li {
 img {
   height: auto; 
   max-width: 100%; 
-  margin-bottom: 4rem;
 }
 
 figure {
@@ -202,6 +201,14 @@ input {
     color: white;
 }
 
+.nav-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+
 
 .button-nav {
 
@@ -210,7 +217,7 @@ input {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 
-    color: #4B4F56;
+    color: #ffffff;
     letter-spacing: 0.08em;
     text-decoration: none;
     font-weight: bold;
@@ -218,8 +225,8 @@ input {
 
     text-transform: uppercase;
 
-    padding: 0.1em;
-    margin: 1.1em;
+    padding: 0.2em;
+    margin: 1.5em;
 
 }
 
@@ -236,6 +243,15 @@ input {
     border-bottom-width:3px 
 }
 
+.top-image {
+  display: block;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 
 .textlink {
   color: #A4B6A6;
@@ -249,7 +265,7 @@ input {
 }
 
 .button {
-  display: inline-block;
+    display: inline-block;
     padding: 1em 1.25em;
     margin-top: 1.5em;
     color: #FFFFFF;
@@ -265,6 +281,76 @@ input {
   transition: background-color 0.4s, color 0.4s ease-out;
     background-color: #ED834E;
     color: #FFFFFF;
+}
+
+/*Styling for the drop-down menu*/
+.dropdown-button {
+  display: inline-block;
+  font-family: 'Apercu';
+  font-size: 0.8em;
+  letter-spacing: 0.15em;
+  padding: 1em 1.25em;
+  color: #FFFFFF; 
+  background-color: #4B4F56; 
+  text-decoration: none;
+}
+
+.dropdown-picker {
+  display: block;
+  font-family: 'Apercu';
+  font-size: 0.8em;
+  letter-spacing: 0.15em;
+  padding: 1em 1.25em;
+  text-align: left;
+  color: #ffffff; /*button text color is grey*/
+  background-color: #ffffff; /*button background color is white*/
+  text-decoration: none; /*setting to none removes underline from texts*/
+}
+
+.dropdown-quantity {
+  font-family: 'Apercu';
+  font-size: 0.8em;
+  letter-spacing: 0.15em;
+  padding: 1em 1.25em;
+  text-align: center;
+  color: #ffffff; /*button text color is grey*/
+  background-color: #ffffff; /*button background color is white*/
+  text-decoration: none; /*setting to none removes underline from texts*/
+}
+
+.dropdown {
+  display: block;
+  position: relative;
+  padding-bottom: 1em;
+}
+
+
+.dropdown-content {
+  display: none; /*do not display until on mouse-hover*/
+  position: absolute;
+  background-color: #f9f9fa;
+  text-decoration: none;
+  width: 100%;
+}
+
+.dropdown-content a {
+  color: #202021;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+.dropdown:hover .dropdown-button {
+  background-color: #e5e5e5; /*change background color of dropdown menu links on mouse-hover*/
 }
 
 .listing {
@@ -386,5 +472,27 @@ span.image-text span {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+}
+
+
+.package-menu-item1 {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  top: 0;
+  background-color: #f1f2f2;
+  padding: 0em 2em;
+  z-index: 30;
+}
+
+.package-menu-item2 {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  background-color: #ffffff;
+  padding: 0em 2em;
+  z-index: 30;
 }
 
