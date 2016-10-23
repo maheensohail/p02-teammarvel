@@ -245,6 +245,19 @@ input {
     border-bottom-width:3px 
 }
 
+
+.header-filter-dropdown {
+  position: relative;
+  left: 0;
+}
+
+.header-filter-dropdown .dropdown {
+  position: absolute;
+  left: 50%;
+  right: auto;
+  top: 50%;
+}
+
 .top-image {
   display: block;
   height: auto;
@@ -296,6 +309,7 @@ input {
   color: #FFFFFF; 
   background-color: #4B4F56; 
   text-decoration: none;
+  margin-top: -30rem;
 }
 
 .dropdown-picker {
@@ -330,7 +344,7 @@ input {
 
 .dropdown-content {
   display: none; /*do not display until on mouse-hover*/
-  position: absolute;
+  position: relative;
   background-color: #f9f9fa;
   text-decoration: none;
   width: 100%;
