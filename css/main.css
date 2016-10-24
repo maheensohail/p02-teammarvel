@@ -3,13 +3,9 @@
 */
 body {
   font-family: "Apercu", Arial, sans-serif;
-
   font-size: 0.95rem;
 }
 
-nav{
-
-}
 
 section {
   margin-bottom: 1em;
@@ -20,7 +16,7 @@ section {
 h1 {
   font-family: "Apercu", Verdana, sans-serif;
   font-size: 2rem;
-  line-height: 2.65rem; 
+  padding-top: 0.2em;
   margin-bottom: 0;
 }
 
@@ -35,16 +31,17 @@ h3 {
   display: block;
   font-family: "Apercu", Verdana, sans-serif;
   font-size: 0.80rem;
+  letter-spacing: 0.08rem;
   text-transform: uppercase;
-  margin-top: 0.75rem;
   margin-bottom: 0.5em;
 }
 
 h4 {
   font-family: "Apercu", Verdana, sans-serif;
   font-size: 1.3rem;
-  margin-top: 0.75rem;
-  margin-bottom: 0.5em;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 
@@ -85,7 +82,7 @@ a {
 }
 
 a:active, a:hover, a:focus {
-  color: rgb(0,0,0); 
+  color: #ED834E; 
   text-decoration: none;
 }
 
@@ -98,6 +95,7 @@ code, samp {
 form, textarea {
   display: inline-block;
   padding: 1.15em;
+<<<<<<< Updated upstream
   font-size: 0.85em;
 
   width: 40em;
@@ -120,10 +118,15 @@ form, textarea {
   margin-left: 10%;
   margin-bottom: 5%;
   z-index: 30;
+=======
+  font-size: 0.75em;
+>>>>>>> Stashed changes
 }
 
 label {
   display: block;
+  color: #A8A7A7;
+  font-size: 0.85em;
   cursor: default;
   margin-bottom: 0.15em;
 }
@@ -135,8 +138,13 @@ input{
     color: #000;
     margin-bottom: .75em;
     padding-left: 0.5em;
+<<<<<<< Updated upstream
 
+=======
+    color: #a7a9ac;
+>>>>>>> Stashed changes
 }
+
 
 #stylesheet-body {
   margin: 1.5em;
@@ -491,6 +499,239 @@ input{
 }
 
 
+/*package detail page*/
+
+.product-image {
+  position: relative;
+  left: 20%;
+  top: 7em;
+  width: 100%;
+  height: 100%;
+}
+
+.package-detail-info {
+  position: relative;
+  left: 10%;
+  top: 8em;
+  width: 80%;
+  padding: 0.2em 4em;
+}
+
+.package-detail-info h1{
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0.3em;
+}
+
+.package-detail-info .price{
+  padding-top: 0;
+  padding-bottom: 1.5em;
+}
+
+.section-label {
+  display: block;
+  color: #A8A7A7;
+  font-family: "Apercu", Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.80rem;
+  letter-spacing: 0.08rem;
+  padding-top: 2rem;
+  margin-top: 1rem;
+}
+
+/*choose a date page*/
+
+.date-title {
+  text-align: center;
+  position: relative;
+  top: 7em;
+  padding-bottom: 2em;
+}
+
+.date-title .dropdown {
+  display: inline-block;
+  position: relative;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.cal-grid {
+  display: block;
+  position: relative;
+  float: left;
+  width: 80%
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+
+}
+
+.weekdays {
+  display: block;
+  position: relative;
+  margin-top: 0.2em;
+  margin-bottom: 0;
+  list-style: none; 
+}
+
+.weekdays li {
+  font-family: "Apercu", Verdana, sans-serif;
+  font-size: 1rem;
+  text-align: left;
+  color: #A8A7A7;
+
+  display: inline-block;
+  margin: 2em 0.2em;
+  padding: 0;
+  border: 0px solid #A8A7A7;
+
+}
+
+.cal-month {
+  display: block;
+  position: relative;
+  width: 80%
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.2em;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.cal-month li {
+  display: inline-block;
+  position: relative;
+  margin: 0 0.3em 0.3em 0;
+  
+}
+
+.day-cell {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding: 1.3em;
+  font-family: "Apercu", Verdana, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: #A8A7A7;
+
+  border: 3px solid #A8A7A7;
+}
+
+.day-cell:active, .day-cell:hover, .day-cell:focus {
+  color: #ED834E;
+  border: 3px solid #ED834E;
+
+}
+
+.calender-buttons {
+  display: block;
+  position: relative;
+}
+
+
+/*checkout page w/ forms*/
+
+.checkout-forms {
+  display: block;
+  position: relative;
+  left: 10%;
+  top: 8em;
+  width: 80%;
+  padding: 0.2em 4em;
+}
+
+.checkout-forms h3 {
+  padding-bottom: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+.checkout-forms input {
+  width: 100%;
+}
+
+.form-theme-section {
+  padding-top: 1em;
+}
+
+.checkout-package-info {
+  display: block;
+  position: relative;
+  left: 10%;
+  top: 8em;
+  width: 80%;
+  padding: 0.2em 4em;
+}
+
+.your-package {
+  margin-bottom: 0;
+  border-bottom: 1px solid #4B4F56;
+}
+
+.checkout-package-info .section-label {
+  padding-top: 1em;
+  margin: 0;
+  padding-bottom: 0.1em;
+
+}
+
+.checkout-package-title {
+  font-family: "Apercu", Verdana, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4B4F56;
+  width: 100%;
+  padding-top: 0.1em;
+  padding-bottom: 0.7em;
+  margin: 0;
+}
+
+
+.checkout-total {
+  display: inline-block;
+  font-family: "Apercu", Verdana, sans-serif;
+  font-size: 1.3rem;
+
+  padding-top: 0.5em;
+  margin-top: 0.05rem;
+  margin-bottom: 0.5em;
+}
+
+.checkout-price {
+  display: inline-block;
+  font-family: "Apercu", Verdana, sans-serif;
+  font-size: 1.3rem;
+  float: right;
+  text-align: right;
+  padding-top: 0.5em;
+  margin-top: 0.05rem;
+  margin-bottom: 0.5em;
+}
+
+/*review your booking*/
+
+.review-forms {
+  display: block;
+  position: relative;
+  left: 10%;
+  top: 8em;
+  width: 80%;
+  padding: 0.2em 4em;
+}
+
+.checkout-package-info {
+  display: block;
+  position: relative;
+
+  padding: 0.2em 4em;
+}
+
+.review-forms p{
+  padding-top: 0.3em;
+  margin-top: 0;
+}
+
 
 /*about page*/
 
@@ -546,7 +787,7 @@ ul.img-list li {
 
 .footnote {
     font-size: 0.95rem;
-    line-height: 0.05rem;
+    line-height: 0.8rem;
     margin-top: 0;
     padding-top: 0;
 }

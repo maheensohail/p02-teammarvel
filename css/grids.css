@@ -45,6 +45,11 @@
 /*
 	grid for main content
 */
+.grid-col-3of12{
+	width: 25%;
+	float: left;
+}
+
 .grid-col-4of12{
 	width: 33.333%;
 	float: left;
@@ -70,7 +75,7 @@
 */
 
 .grid-col-1of7{
-	width: 14.2857%;
+	width: 13.593%;
 	float: left;
 }
 
