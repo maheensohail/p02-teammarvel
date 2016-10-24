@@ -95,10 +95,31 @@ code, samp {
   padding: 0.5rem;
 }
 
-form {
+form, textarea {
   display: inline-block;
   padding: 1.15em;
   font-size: 0.85em;
+
+  width: 40em;
+  height: 8em;
+}
+
+.contact-form{
+  display: inline-block;
+  border-style: none;
+  border-bottom: thin solid #fffff;
+  margin-left: 10%;
+  margin-top: 5%;
+  z-index: 30;
+  text-align: left;
+  font-size: 1em;
+}
+
+.contact-form-button{
+  display: block;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  z-index: 30;
 }
 
 label {
@@ -107,13 +128,14 @@ label {
   margin-bottom: 0.15em;
 }
 
-input {
+input{
   display: inline-block;
     width: 240px;
     height: 30px;
     color: #000;
     margin-bottom: .75em;
     padding-left: 0.5em;
+
 }
 
 #stylesheet-body {
@@ -300,7 +322,7 @@ input {
 
 .button {
     display: inline-block;
-    padding: 1em 1.25em;
+    padding: 0.8em 0.6em;
     margin-top: 1.5em;
     color: #FFFFFF;
     background-color: #4B4F56;
@@ -309,6 +331,7 @@ input {
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
+    border: none;
 }
 
 .button:active, .button:hover, .button:focus {
@@ -471,19 +494,10 @@ input {
   display: inline-block;
   border-style: none;
   border-bottom: thin solid #fffff;
-  margin-left: 15%;
+  margin-left: 10%;
+  margin-top: 5%; 
   z-index: 30;
-  text-align: center;
-
-}
-
-.contact-form{
-  display: inline-block;
-  border-style: none;
-  border-bottom: thin solid #fffff;
-  margin-left: 15%;
-  z-index: 30;
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -600,6 +614,5 @@ span.image-text span {
   text-align: center;
   vertical-align: middle;
 }
-
 
 
