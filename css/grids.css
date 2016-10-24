@@ -79,3 +79,32 @@
 	float: left;
 }
 
+@media (max-width: 53em) {
+
+.grid-col-3of12{
+	width: 25%;
+	float: left;
+}
+
+.grid-col-4of12{
+	width: 100%;
+	float: left;
+}
+
+.grid-col-6of12{
+	width: 100%;
+	float: left;
+}
+
+.grid-col-8of12{
+	width: 50%;
+	float: left;
+}
+
+.grid-col-12of12{
+	width: 100%;
+	float: left;
+}
+
+}
+
