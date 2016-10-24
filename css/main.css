@@ -245,11 +245,15 @@ input{
   padding:2px;
 }
 
-.promotional-text{
+.promotional-bar{
   position: fixed;
   left: 50%;
   margin-left: -100px;
   margin-top: -10px;
+}
+
+.promotional-text{
+  color: #ffffff;
 }
 
 .button-nav {
