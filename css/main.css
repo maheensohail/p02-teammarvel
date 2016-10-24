@@ -120,12 +120,13 @@ input {
   margin: 1.5em;
 }
 
+
 .nav-list {
     list-style: none;
 }
 
-.nav-main-item {
-  
+
+.nav-main-item{
   display: inline-block;
   color: #A4B6A6;
   font-family: "Apercu", Verdana, sans-serif;
@@ -142,6 +143,7 @@ input {
   color: #ED834E;
   text-decoration: underline;
 }
+
 
 .dark-text-colour {
     display: inline-block;
@@ -205,12 +207,28 @@ input {
 
 .nav-main {
   position: fixed;
-  top: 0;
+  top: 1.75em;
   left: 0;
   right: 0;
   z-index: 20;
 }
 
+.news {
+  width:100%;
+  position: fixed;
+  z-index: 10;
+  background: #A4B6A6;
+  height: 3em;
+  font-size: 12px;
+  padding:2px;
+}
+
+.promotional-text{
+  position: fixed;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -10px;
+}
 
 .button-nav {
 
@@ -241,17 +259,17 @@ input {
   text-decoration-line: 
 
   border-bottom-color: #ED834E;
-    border-bottom-style:solid;
-    border-bottom-width:3px 
+  border-bottom-style:solid;
+  border-bottom-width:3px 
 }
 
 
-.header-filter-dropdown {
+.header-filter-dropdown, .album-info {
   position: relative;
   left: 0;
 }
 
-.header-filter-dropdown .dropdown {
+.header-filter-dropdown .dropdown, .album-info {
   position: absolute;
   left: 45%;
   right: auto;
@@ -305,19 +323,22 @@ input {
   font-family: 'Apercu';
   font-size: 0.8em;
   letter-spacing: 0.15em;
-  padding: 1em 1.25em;
+  padding: 1.5em 3.55em;
   color: #FFFFFF; 
-  background-color: #4B4F56; 
+  background-color: #ED834E;
   text-decoration: none;
   margin-top: -30rem;
+  border: none;
 }
+
+
 
 .dropdown-picker {
   display: block;
   font-family: 'Apercu';
   font-size: 0.8em;
   letter-spacing: 0.15em;
-  padding: 1em 1.25em;
+  padding: 1.5em 3.55em;
   text-align: left;
   color: #ffffff; /*button text color is grey*/
   background-color: #ffffff; /*button background color is white*/
@@ -328,7 +349,7 @@ input {
   font-family: 'Apercu';
   font-size: 0.8em;
   letter-spacing: 0.15em;
-  padding: 1em 1.25em;
+  padding: 1.5em 3.55em;
   text-align: center;
   color: #ffffff; /*button text color is grey*/
   background-color: #ffffff; /*button background color is white*/
@@ -343,11 +364,17 @@ input {
 
 
 .dropdown-content {
-  display: none; /*do not display until on mouse-hover*/
-  position: relative;
-  background-color: #f9f9fa;
-  text-decoration: none;
-  width: 100%;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  font-family: 'Apercu';
+  font-size: 0.8em;
+  letter-spacing: 0.15em;
+
 }
 
 .dropdown-content a {
@@ -390,6 +417,39 @@ input {
   z-index: 30;
 }
 
+.portfolio-album-item1 {
+  display: inline-block;
+  width: 100%;
+  height: 15em;
+  position: relative;
+  background-color: #ffffff;
+  outline: #f1f2f2 solid thin; 
+  padding: 0em 3em;
+  z-index: 30;
+  text-align: center;
+}
+
+.portfolio-album-item2{
+  display: inline-block;
+  width: 100%;
+  height: 15em;
+  position: relative;
+  outline: #f1f2f2 solid thin;
+  padding: 0em 3em;
+  z-index: 30;
+  text-align: center;
+}
+
+.portfolio-album-text{
+  display: inline-block;
+  padding: 7.5em;
+  opacity: 0;
+}
+
+.portfolio-album-text:hover{
+  opacity: 1;
+}
+
 .price {
   font-family: "Apercu", Verdana, sans-serif;
   font-size: 1.3rem;
@@ -402,6 +462,31 @@ input {
   background: #FFFFFF;
   padding: 1rem;
 }
+
+
+
+/*about page*/
+
+.about-description{
+  display: inline-block;
+  border-style: none;
+  border-bottom: thin solid #fffff;
+  margin-left: 15%;
+  z-index: 30;
+  text-align: center;
+
+}
+
+.contact-form{
+  display: inline-block;
+  border-style: none;
+  border-bottom: thin solid #fffff;
+  margin-left: 15%;
+  z-index: 30;
+  text-align: center;
+
+}
+
 
 ul.img-list {
     display: inline-block;
@@ -455,8 +540,6 @@ span.image-text {
   color: white;
   cursor: pointer;
   display: table;
-  height: 90px;
-  width: 140px;
   left: 0;
   position: absolute;
   top: 0;
@@ -517,4 +600,6 @@ span.image-text span {
   text-align: center;
   vertical-align: middle;
 }
+
+
 
