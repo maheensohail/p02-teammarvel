@@ -537,6 +537,7 @@ input{
 
 /*choose a date page*/
 
+/*wraps all the info on the page*/
 .page-info {
   display: block;
   position: relative;
@@ -545,8 +546,8 @@ input{
   margin-right: auto;
 }
 
+/*Page heading*/
 .date-title {
-  
   display: block;
   position: relative;
   float: left;
@@ -554,6 +555,7 @@ input{
   padding-bottom: 1em;
 }
 
+/*Year and month dropdown menus*/
 .date-title .dropdown {
   display: inline-block;
   position: relative;
@@ -565,7 +567,6 @@ input{
   display: block;
   position: relative;
   float: left;
-  width: 100%;
   margin-top: 3em;
 
 }
