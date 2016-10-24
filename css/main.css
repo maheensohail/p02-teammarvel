@@ -51,7 +51,6 @@ p, ol, ul {
   color: #A8A7A7;
   font-size: 1.05rem;
   line-height: 1.3rem;
-  max-width: 60rem;
 }
 
 ol, ul {
@@ -538,27 +537,35 @@ input{
 
 /*choose a date page*/
 
-.date-title {
-  text-align: center;
+.pageinfo {
+  display: block;
   position: relative;
+  float: left;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.date-title {
+  
+  display: block;
+  position: relative;
+  float: left;
   top: 7em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 .date-title .dropdown {
   display: inline-block;
   position: relative;
-  margin-top: 4em;
-  margin-bottom: 4em;
+  margin-top: 3em;
+  margin-bottom: 2em;
 }
 
 .cal-grid {
   display: block;
   position: relative;
   float: left;
-  width: 80%
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 3em;
 
 }
@@ -587,9 +594,6 @@ input{
 .cal-month {
   display: block;
   position: relative;
-  width: 80%
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 0.2em;
   margin-bottom: 0;
   list-style: none;
@@ -622,7 +626,7 @@ input{
 
 }
 
-.calender-buttons {
+.cal-buttons {
   display: block;
   position: relative;
 }
