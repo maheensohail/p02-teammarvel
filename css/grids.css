@@ -79,16 +79,32 @@
 	float: left;
 }
 
-@media (max-width: 53em) {
 
-.grid-col-1of5 > .button-nav {
-	float: right;
-	display: none;
+@media (max-width: 57em) {
+  
+  .content-grid {
+  top: 45%;
 }
 
-.grid-col-1of5 > .logo {
+.page-title {
+	top: 20%;
+}
+
+.grid-col-4of12{
+	width: 50%;
 	float: left;
-	display: none;
+}
+
+}
+
+@media (max-width: 35em) {
+  
+.content-grid {
+  top: 33%;
+}
+
+.page-title {
+	top: 13%;
 }
 
 .grid-col-3of12{
@@ -114,6 +130,17 @@
 .grid-col-12of12{
 	width: 100%;
 	float: left;
+}
+
+
+@media (max-width: 25em) {
+  
+.content-grid {
+  top: 27%;
+}
+
+.page-title {
+	top: 10%;
 }
 
 }
