@@ -281,7 +281,7 @@ input{
 .button-nav:active, .button-nav:hover, .button-nav:focus {
   transition: background-color 0.4s, color 0.4s ease-out;
 
-  color: #ED834E;
+  color: #FF9C5B;
   text-decoration: none;
 
   text-decoration-line: 
@@ -307,21 +307,21 @@ input{
 
 .page-title {
   position: absolute;
-  top: 35%;
+  top: 45%;
   width: 100%;
   text-align: center;
   color: #ffffff;
 }
 
 .textlink {
-  color: #A4B6A6;
+  color: #74ceec;
   font-size: 1.05rem;
   letter-spacing: 0.05em;
   text-decoration: none;
 }
 
 .textlink:active, .textlink:hover, .textlink:focus {
-  color: #ED834E;
+  color: #FF9C5B;
   text-decoration: underline;
 }
 
@@ -508,6 +508,7 @@ input{
   left: 0;
   height: 100%;
   opacity: 0;
+  z-index: -1;
 }
 
 .pk-img:hover {
