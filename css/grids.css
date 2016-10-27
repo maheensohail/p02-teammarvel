@@ -104,7 +104,9 @@
 }
 
 .page-title {
-	top: 13%;
+	color: #4B4F56;
+	font-size: 1.8rem;
+	top: 15%;
 }
 
 .grid-col-3of12{
@@ -132,16 +134,15 @@
 	float: left;
 }
 
-
-@media (max-width: 25em) {
-  
-.content-grid {
-  top: 27%;
+#header-main {
+	background: white;
 }
 
-.page-title {
-	top: 10%;
+#header-main img{
+	display: none;
 }
 
 }
+
+
 
