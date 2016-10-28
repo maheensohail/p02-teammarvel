@@ -314,7 +314,7 @@ input{
 }
 
 .textlink {
-  color: #74ceec;
+  color: #ffffff;
   font-size: 1.05rem;
   letter-spacing: 0.05em;
   text-decoration: none;
@@ -434,38 +434,42 @@ input{
   right: 0;
 }
 
-.portfolio-album-item1 {
-  display: inline-block;
-  width: 100%; 
-  height: 15em;
-  position: relative;
-  background-color: #ffffff;
-  outline: #f1f2f2 solid thin; 
-  padding: 0em 3em;
-  z-index: 30;
-  text-align: center;
+
+/* Album thumbnail views, used on home / booking / album and booking details pages */
+
+.album-image {
+  position:relative;
+  text-align:center;
+  float: left;
+  margin: -0.25em;
 }
 
-.portfolio-album-item2{
-  display: inline-block;
+.album-text{
+  left: 0;
+  position:absolute;
+  top: 50%;
   width: 100%;
-  height: 15em;
-  position: relative;
-  outline: #f1f2f2 solid thin;
-  padding: 0em 3em;
-  z-index: 30;
-  text-align: center;
+
 }
 
-.portfolio-album-text{
-  display: inline-block;
-  padding: 7.5em;
-  opacity: 0;
+
+.album-image:before {
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.7);
+    opacity:1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
 
-.portfolio-album-text:hover{
-  opacity: 1;
+
+.album-image:hover:before {
+    opacity:0;
 }
+
+
 
 .price {
   font-family: "Apercu", Verdana, sans-serif;
