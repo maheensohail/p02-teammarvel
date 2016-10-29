@@ -55,6 +55,11 @@
 	float: left;
 }
 
+.grid-col-5of12 {
+	width: 38%;
+	float: left;
+}
+
 .grid-col-6of12{
 	width: 50%;
 	float: left;
@@ -119,6 +124,10 @@
 	float: left;
 }
 
+.grid-col-5of12 {
+	width: 100%;
+}
+
 .grid-col-6of12{
 	width: 100%;
 	float: left;
@@ -142,7 +151,66 @@
 	display: none;
 }
 
+.product-image {
+  position: relative;
+  display: inline-block;
+  overflow: scroll;
+  left: 0;
+  top: 7em;
 }
+
+.package-detail-info {
+  position: relative;
+  display: block;
+  left: 0%;
+  width: 90%;
+  padding: 0.2em 2em;
+}
+
+}
+
+/*Calender breakpoints RIP*/
+
+@media (max-width: 75em) {
+
+.day-cell {
+	padding: 1.3em .5em;
+}
+
+.weekdays li {
+  font-size: 1rem;
+  margin: 2em 0.15em;
+}
+
+}
+
+@media (max-width: 60em) {
+
+.grid-col-1of7 {
+	width: 12%;
+}
+
+.day-cell {
+	font-size: 1.5rem;
+	padding: 1em .3em;
+}
+
+.weekdays li {
+  font-size: .8rem;
+  margin: 2em 0.3;
+}
+
+}
+
+@media (max-width: 33em) {
+
+.day-cell {
+	font-size: 1rem;
+	padding: 1em .3em;
+}
+
+}
+
 
 
 
