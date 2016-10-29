@@ -7,6 +7,7 @@ body {
   background-color: black;
 }
 
+
 section {
   margin-bottom: 1em;
     padding-bottom: 1em;
@@ -91,25 +92,12 @@ code, samp {
   padding: 0.5rem;
 }
 
-form, textarea {
-  display: inline-block;
-  padding: 1.15em;
-  font-size: 0.85em;
-
-  width: 40em;
-  height: 8em;
-}
 
 .contact-form{
-  display: inline-block;
-  border-style: none;
-  border-bottom: thin solid #fffff;
-  margin-left: 10%;
-  margin-top: 5%;
-  z-index: 30;
-  text-align: left;
-  font-size: 1em;
+  max-width: 80%;
+  margin-left: 2.5%;
 }
+
 
 .contact-form-button{
   display: block;
@@ -117,7 +105,6 @@ form, textarea {
   margin-bottom: 5%;
   z-index: 30;
   font-size: 0.75em;
-
 }
 
 label {
@@ -245,17 +232,6 @@ input{
   height: 3em;
   font-size: 12px;
   padding:2px;
-}
-
-.promotional-bar{
-  position: fixed;
-  left: 50%;
-  margin-left: -100px;
-  margin-top: -10px;
-}
-
-.promotional-text{
-  color: #ffffff;
 }
 
 .button-nav {
@@ -453,7 +429,6 @@ input{
 
 }
 
-
 .album-image:before {
     content:'\A';
     position:absolute;
@@ -469,6 +444,7 @@ input{
 .album-image:hover:before {
     opacity:0;
 }
+
 
 
 
@@ -782,7 +758,16 @@ input{
 
 /*about page*/
 
-.about-description{
+.about-content {
+  display: block;
+  position: relative;
+  left: 5%;
+  top: 1em;
+  width: 80%;
+  padding: 0.2em 4em;
+}
+
+.about-content p, .contact-content p{
   display: inline-block;
   border-style: none;
   border-bottom: thin solid #fffff;
@@ -790,9 +775,20 @@ input{
   margin-top: 5%; 
   z-index: 30;
   text-align: left;
-
 }
 
+.about-content h1, .about-content h2, .about-content h3, .about-content textarea{
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 5%; 
+  z-index: 30;
+  text-align: left;
+  font-family: "Apercu", Verdana, sans-serif;
+  font-size: 1.5rem;
+  width: 100%;
+  padding-top: 1em;
+  color: #A8A7A7;
+}
 
 ul.img-list {
     display: inline-block;
@@ -906,5 +902,3 @@ span.image-text span {
   text-align: center;
   vertical-align: middle;
 }
-
-
