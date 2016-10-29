@@ -1,6 +1,7 @@
 /* 
   Please leave the content below alone for this week's tutorial
 */
+
 body {
   font-family: "Apercu", Arial, sans-serif;
   font-size: 0.95rem;
@@ -10,6 +11,20 @@ body {
 .white-bg {
   background-color: #ffffff;
 }
+
+
+/* HEADER TEST - making nav background change when scroll reaches certain hieght*/
+.fixed {
+  background: black;
+
+}
+
+nav {
+  position: fixed; 
+  z-index: 20;
+  width: 100%;
+}
+
 
 
 section {
@@ -220,13 +235,6 @@ input{
     color: white;
 }
 
-.nav-main {
-  position: fixed;
-  top: 1.75em;
-  left: 0;
-  right: 0;
-  z-index: 20;
-}
 
 .news {
   width:100%;
@@ -271,6 +279,14 @@ input{
     margin: 1.5em;
 
 }
+
+.fixed {
+  position: fixed; 
+  top: 0; 
+  height: 70px; 
+  z-index: 1;
+}
+
 
 .button-nav:active, .button-nav:hover, .button-nav:focus {
   transition: background-color 0.4s, color 0.4s ease-out;
