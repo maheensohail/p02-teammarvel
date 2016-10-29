@@ -90,7 +90,7 @@
             <div class="album-image">
               <img src="img/editorials.jpg" alt="girl sitting in many balloons">
               <div class="album-text">
-                <a class="textlink" href="albums.html">Fashion</a>
+                <a class="textlink" href="albums.html">Editorial</a>
               </div>
             </div>
           </div>
@@ -126,18 +126,38 @@
 
           <div class="grid-col-4of12">
             <div class="album-image">
-              <img src="img/landscape.jpg" alt="placeholder">
+              <img src="img/landscape.jpg" alt="Adventure">
               <div class="album-text">
-                <a class="textlink" href="albums.html">Placeholder</a>
+                <a class="textlink" href="albums.html">Adventure</a>
               </div>
             </div>
           </div>
 
         </div>
+        </div>
       </section>
       
         <div class="footer">This footer will always be positioned at the bottom of the page, but <strong>not fixed</strong>.</div>
 
-    </div>
-    
+    </div>  
   </body>
+
+
+
+/* javascript from online - to help with top nav transition, source code below. */
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script>
+       $(document).ready(function(){
+         $(window).bind('scroll', function() {
+         var navHeight = $( window ).height() - 250;
+           if ($(window).scrollTop() > navHeight) {
+             $('nav').addClass('fixed');
+           }
+           else {
+             $('nav').removeClass('fixed');
+           }
+        });
+      });
+    </script>
