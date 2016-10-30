@@ -76,6 +76,15 @@
 }
 
 /*
+	grid for mobile nav
+*/
+
+.grid-col-1of4{
+	width: 25%;
+	float: left;
+}
+
+/*
 	grid for calender
 */
 
@@ -100,9 +109,30 @@
 	float: left;
 }
 
+.grid-col-5of12 {
+	width: 30%;
 }
 
-@media (max-width: 35em) {
+.product-image {
+  position: relative;
+  left: 15%;
+  top: 7em;
+  width: 100%;
+  height: auto;
+}
+
+.package-detail-info {
+  position: relative;
+  display: block;
+  left: 10%;
+  top: 7em;
+  width: 90%;
+  padding: 0.2em 2em;
+}
+
+}
+
+@media (max-width: 37em) {
   
 .content-grid {
   top: 33%;
@@ -111,7 +141,7 @@
 .page-title {
 	color: #4B4F56;
 	font-size: 1.8rem;
-	top: 15%;
+	top: 17%;
 }
 
 .grid-col-3of12{
@@ -159,6 +189,13 @@
   top: 7em;
 }
 
+.pk-detail-caption {
+  font-size: 1.1rem;
+  left: 0%;
+  width: 90%;
+  padding-left: 2em;
+}
+
 .package-detail-info {
   position: relative;
   display: block;
@@ -167,6 +204,33 @@
   padding: 0.2em 2em;
 }
 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script>
+       $(document).ready(function(){
+         $(window).bind('scroll', function() {
+         var navHeight = $( window ).height() - 575;
+           if ($(window).scrollTop() > navHeight) {
+             $('nav').addClass('fixed');
+           }
+           else {
+             $('nav').removeClass('fixed');
+           }
+        });
+      });
+    </script>
+
+}
+
+/*nav breakpoint*/
+@media (max-width: 34em) {
+	.button-nav {
+		display: none;
+	}
+
+	.icon-nav {
+		display: inline-block;
+	}
 }
 
 /*Calender breakpoints RIP*/
