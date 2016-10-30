@@ -7,9 +7,18 @@
 	font-style: normal;
 	src: url('../fonts/Apercu.eot');
 	src: url('../fonts/Apercu.eot?#iefix') format('embedded-opentype'), 
-		 url('../fonts/Quan.woff2') format('woff2'), 
 		 url('../fonts/Apercu.woff') format('woff'),
 		 url('../fonts/Apercu.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Apercu-light';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Apercu-light.eot');
+	src: url('../fonts/Apercu-light.eot?#iefix') format('embedded-opentype'), 
+		 url('../fonts/Apercu-light.woff') format('woff'),
+		 url('../fonts/Apercu-light.ttf') format('truetype');
 }
 
 @font-face {
@@ -18,7 +27,6 @@
 	font-style: normal;
 	src: url('../fonts/Freight-Text-Book.eot');
 	src: url('../fonts/Freight-Text-Book.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/Quan-Bold.woff2') format('woff2'),
 		 url('../fonts/Freight-Text-Book.woff') format('woff'),
 		 url('../fonts/Freight-Text-Book.ttf') format('truetype');
 }
