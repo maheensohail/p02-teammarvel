@@ -243,18 +243,6 @@ input{
   padding:2px;
 }
 
-<<<<<<< HEAD
-=======
-.promotional-bar{
-  position: fixed;
-  left: 50%;
-  margin-left: -100px;
-  margin-top: -10px;
-}
-
-.promotional-text{
-  color: #ffffff;
-}
 
 /*The class for the buttons in the menu of our actual site pages*/
 .button-nav {
@@ -276,6 +264,28 @@ input{
     margin: 1.5em;
 
 }
+
+/*.button-nav-logo{
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    font-family: "Arizonia", Arial, sans-serif;
+    font-size: 1.8rem;
+
+    color: #c7c8ca;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    text-decoration: none;
+
+
+    text-transform: uppercase;
+
+    padding: 0.2em;
+    margin: 1.5em;
+
+} */
 
 .fixed {
   position: fixed; 
@@ -851,7 +861,7 @@ input{
 
 /*about page*/
 
-.about-content {
+.about-content, .footr {
   display: block;
   position: relative;
   left: 5%;
@@ -860,7 +870,7 @@ input{
   padding: 0.2em 4em;
 }
 
-.about-content p, .contact-content p{
+.about-content p, .contact-content p, .footr p{
   display: inline-block;
   border-style: none;
   border-bottom: thin solid #fffff;
@@ -870,7 +880,7 @@ input{
   text-align: left;
 }
 
-.about-content h1, .about-content textarea{
+.about-content h1, .about-content textarea, .footr-content h1{
   display: inline-block;
   margin-left: 10%;
   margin-top: 5%; 
