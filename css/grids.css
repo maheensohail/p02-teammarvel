@@ -38,6 +38,11 @@
 	float: right;
 }
 
+/* grid for social media footr nav */
+.grid-col-1of5 > .media-nav {
+	float: right;
+}
+
 .grid-col-1of5 > .logo {
 	float: left;
 }
@@ -225,6 +230,10 @@
 /*nav breakpoint*/
 @media (max-width: 34em) {
 	.button-nav {
+		display: none;
+	}
+
+	.media-nav {
 		display: none;
 	}
 
