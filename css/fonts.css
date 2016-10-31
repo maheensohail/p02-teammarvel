@@ -30,3 +30,12 @@
 		 url('../fonts/Freight-Text-Book.woff') format('woff'),
 		 url('../fonts/Freight-Text-Book.ttf') format('truetype');
 }
+
+/*
+@font-face {
+	font-family: 'Arizonia';
+	font-weight: regular;
+	font-style: normal;
+	src: url('../fonts/Arizonia.ttf');
+}
+*/
