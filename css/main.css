@@ -318,17 +318,14 @@ input{
 }
 
 
-.button-nav:active, .button-nav:hover, .button-nav:focus,.media-nav:active, .media-nav:hover, .media-nav:focus; {
+.button-nav:active, .button-nav:hover, .button-nav:focus,.media-nav:active, .media-nav:hover, .media-nav:focus{
   transition: background-color 0.4s, color 0.4s ease-out;
-
   color: #FF9C5B;
   text-decoration: none;
-
-  text-decoration-line: 
-
+  text-decoration-line: none;
   border-bottom-color: #ED834E;
   border-bottom-style:solid;
-  border-bottom-width:3px 
+  border-bottom-width:3px; 
 }
 
 .icon-nav {
