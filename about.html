@@ -114,28 +114,24 @@
   </div>
   </section>
   </div>
-
-
-        
 </body>
 
 
+/* javascript from online - to help with top nav transition, source code below */
 
-/* javascript from online - to help with top nav transition, source code below. */
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-    <script>
-       $(document).ready(function(){
-         $(window).bind('scroll', function() {
-         var navHeight = $( window ).height() - 250;
-           if ($(window).scrollTop() > navHeight) {
-             $('nav').addClass('fixed');
-           }
-           else {
-             $('nav').removeClass('fixed');
-           }
-        });
-      });
-    </script>
+<script>
+   $(document).ready(function(){
+     $(window).bind('scroll', function() {
+     var navHeight = $( window ).height() - 250;
+       if ($(window).scrollTop() > navHeight) {
+         $('nav').addClass('fixed');
+       }
+       else {
+         $('nav').removeClass('fixed');
+       }
+    });
+  });
+</script>
 
