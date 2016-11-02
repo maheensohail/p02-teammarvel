@@ -318,7 +318,7 @@ input{
 }
 
 
-.button-nav:active, .button-nav:hover, .button-nav:focus,.media-nav:active, .media-nav:hover, .media-nav:focus {
+.button-nav:active, .button-nav:hover, .button-nav:focus,.media-nav:active, .media-nav:hover, .media-nav:focus; {
   transition: background-color 0.4s, color 0.4s ease-out;
 
   color: #FF9C5B;
@@ -896,7 +896,7 @@ input{
 .about-content p, .contact-content p{
   display: inline-block;
   border-style: none;
-  border-bottom: thin solid #fffff;
+  border-bottom: thin solid #ffffff;
   margin-left: 10%;
   margin-top: 5%; 
   z-index: 30;
@@ -905,11 +905,11 @@ input{
 
 .footr p{
   display: inline-block;
-  margin-left: auto%;
+  margin-left: auto;
   z-index: 30;
   text-align: left;
   font-size: 0.8em;
-  color: #bdbdbd
+  color: #bdbdbd;
 ;
 }
 
