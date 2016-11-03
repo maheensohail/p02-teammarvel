@@ -23,7 +23,7 @@
       </div>
 
       <div class="grid-col-1of5">
-        <a class="button-nav" href="#">Blog</a>
+        <a class="button-nav" href="blog.html">Blog</a>
       </div>
 
       <div class="grid-col-1of5">
@@ -31,31 +31,31 @@
       </div>
 
       <div class="grid-col-1of5">
-        <a class="button-nav" href="packages.html">Bookings</a>
+        <a class="button-nav" href="packageCategories.html">Bookings</a>
       </div>
 
 
       <div class="grid-col-1of4">
-        <a class="icon-nav" href="packages.html">
-          <img src="img/icons/home.png" alt="silhouette of bride">
+        <a class="icon-nav" href="home.html">
+          <img src="img/icons/home.png" alt="home icon">
         </a>
       </div>
 
       <div class="grid-col-1of4">
-        <a class="icon-nav" href="packages.html">
-          <img src="img/icons/calender.png" alt="silhouette of bride">
+        <a class="icon-nav" href="packageCategories.html">
+          <img src="img/icons/calender.png" alt="booking package icons">
         </a>
       </div>
 
       <div class="grid-col-1of4">
-        <a class="icon-nav" href="packages.html">
-          <img src="img/icons/contact.png" alt="silhouette of bride">
+        <a class="icon-nav" href="about.html">
+          <img src="img/icons/contact.png" alt="contact and about icon">
         </a>
       </div>
 
       <div class="grid-col-1of4">
-        <a class="icon-nav" href="packages.html">
-          <img src="img/icons/blog.png" alt="silhouette of bride">
+        <a class="icon-nav" href="blog.html">
+          <img src="img/icons/blog.png" alt="blog icon">
         </a>
       </div>
     
@@ -67,21 +67,19 @@
       <h1 class="page-title">Wedding Packages</h1>
     </section>
 
-   <div class="grid-row">
-   	<div class="grid-col-12of12">
 
       <section class="content-grid">
 
     	<div class="grid-col-4of12">
    		<div class="package-menu-item1">
-        <img class="pk-img" src="img/package1.jpg" alt="silhouette of bride">
+        <img class="pk-img" src="img/package3.jpg" alt="silhouette of bride">
 				<h2>Package One</h2>
 				<p class="price">$1800-2000</p>
 				<p>6 hours of shooting including ceremony and reception</p>
         <p>200+ high quality colour and black & white images</p>
         <p>Professional processing of your wedding photos. Full resolution images saved on a custom flash drive.</p>
         <p>5 images printed on 8x10</p>
-				<a class="textlink on-white" href="packageDetail.html">Read More</a>
+				<a class="textlink on-white" href="packageDetail.html">Full Package Info</a>
 		</div>
    		</div>
 
@@ -90,30 +88,74 @@
    		<div class="package-menu-item2"> 
         <img class="pk-img" src="img/package2.jpg" alt="silhouette of bride">
 				<h2>Package Two</h2>
-				<p class="price">$300</p>
+				<p class="price">$2200-2500</p>
 				<p>8+ hours of wedding coverage</p>
         <p>2 hour photoshoot on location</p>
         <p>300+ high quality images in colour and black & white</p>
         <p>Professional processing of your wedding photos. Full resolution images saved on a custom flash drive.</p>
         <p>5 images printed 8x10"</p>
         <p>5 images printed 12x18"</p>
-				<a class="textlink on-white" href="packageDetail.html">Read More</a>
+				<a class="textlink on-white" href="packageDetail.html">Full Package Info</a>
 		</div>
    		</div>
 
    		<div class="grid-col-4of12">
    		<div class="package-menu-item1">
-        <img class="pk-img" src="img/package3.jpg" alt="silhouette of bride">
+        <img class="pk-img" src="img/package1.jpg" alt="silhouette of bride">
 				<h2>Package Three</h2>
-				<p class="price">$300</p>
-				<p>A brief intorductory description of the package. Me doluptas minctemolor aceratis sin eseque sunto et aut volupta quiam con nem</p>
-				<a class="textlink on-white" href="packageDetail.html">Read More</a>
+				<p class="price">$2800-3500</p>
+				<p>12+ hours of wedding coverage</p>
+        <p>bridal preparation shoot</p>
+        <p>2 hour photoshoot on location</p>
+        <p>300+ high quality images in colour and black & white</p>
+        <p>Professional processing of your wedding photos. Full resolution images saved on a custom flash drive.</p>
+        <p>5 images printed 8x10"</p>
+        <p>5 images printed 12x18"</p>
+				<a class="textlink on-white" href="packageDetail.html">Full Package Info</a>
 		</div>
    		</div>
 
+      <div class="footr">            
+            <div class="footr-content">
+              
+              <div class="grid-col-1of5">
+                <a class="media-nav" href="https://www.facebook.com/MassanPhotography/">Facebook</a>
+               </div>
+              
+              <div class="grid-col-1of5">
+                <a class="media-nav" href="http://massanphotography.tumblr.com/">Tumblr</a>
+               </div>
+              
+              <div class="grid-col-1of5">
+                <a class="media-nav" href="https://twitter.com/maheen_sohail">Twitter</a>
+               </div>
+              
+              <div class="grid-col-1of5">
+                <a class="media-nav" href="https://vimeo.com/user27417430">Vimeo</a>
+               </div>
+              
+              <p>© Massan Photography. All rights reserved. 2016</p>        
+            </div>
+          </div>
+
     </section>
 
-   	</div>
-   	</div>
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script>
+       $(document).ready(function(){
+         $(window).bind('scroll', function() {
+         var navHeight = $( window ).height() - 250;
+           if ($(window).scrollTop() > navHeight) {
+             $('nav').addClass('fixed');
+           }
+           else {
+             $('nav').removeClass('fixed');
+           }
+        });
+      });
+    </script>
 
   </body>

@@ -43,6 +43,11 @@
 	float: right;
 }
 
+/* grid for social media footr nav */
+.grid-col-1of4 > .media-nav {
+	float: right;
+}
+
 .grid-col-1of5 > .logo {
 	float: left;
 }
@@ -56,7 +61,7 @@
 }
 
 .grid-col-4of12{
-	width: 33.333%;
+	width: 33.33333333333%;
 	float: left;
 }
 
@@ -101,7 +106,7 @@
 
 @media (max-width: 57em) {
   
-  .content-grid {
+.content-grid {
   top: 45%;
 }
 
@@ -116,6 +121,10 @@
 
 .grid-col-5of12 {
 	width: 30%;
+}
+
+.grid-col-6of12 {
+	width: 100%;
 }
 
 .product-image {
@@ -143,10 +152,19 @@
   top: 33%;
 }
 
+.page-title-blog {
+	color: #4B4F56;
+	font-size: 1.8rem;
+}
+
 .page-title {
 	color: #4B4F56;
 	font-size: 1.8rem;
 	top: 17%;
+}
+
+.date-title h1 {
+	font-size: 1.8rem;
 }
 
 .grid-col-3of12{
@@ -209,22 +227,6 @@
   padding: 0.2em 2em;
 }
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-    <script>
-       $(document).ready(function(){
-         $(window).bind('scroll', function() {
-         var navHeight = $( window ).height() - 575;
-           if ($(window).scrollTop() > navHeight) {
-             $('nav').addClass('fixed');
-           }
-           else {
-             $('nav').removeClass('fixed');
-           }
-        });
-      });
-    </script>
-
 }
 
 /*nav breakpoint*/
@@ -244,7 +246,7 @@
 
 /*Calender breakpoints RIP*/
 
-@media (max-width: 75em) {
+@media (max-width: 65em) {
 
 .day-cell {
 	padding: 1.3em .5em;
@@ -252,7 +254,7 @@
 
 .weekdays li {
   font-size: 1rem;
-  margin: 2em 0.15em;
+  margin: 2em 0.17em;
 }
 
 }

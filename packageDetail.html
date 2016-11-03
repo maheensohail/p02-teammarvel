@@ -23,7 +23,7 @@
       </div>
 
       <div class="grid-col-1of5">
-        <a class="button-nav" href="#">Blog</a>
+        <a class="button-nav" href="blog.html">Blog</a>
       </div>
 
       <div class="grid-col-1of5">
@@ -31,33 +31,33 @@
       </div>
 
       <div class="grid-col-1of5">
-        <a class="button-nav" href="packages.html">Bookings</a>
+        <a class="button-nav" href="packageCategories.html">Bookings</a>
       </div>
 
 
 
 
       <div class="grid-col-1of4">
-        <a class="icon-nav" href="packages.html">
-          <img src="img/icons/home.png" alt="silhouette of bride">
+        <a class="icon-nav" href="home.html">
+          <img src="img/icons/home.png" alt="home icon">
         </a>
       </div>
 
       <div class="grid-col-1of4">
-        <a class="icon-nav" href="packages.html">
-          <img src="img/icons/calender.png" alt="silhouette of bride">
+        <a class="icon-nav" href="packageCategories.html">
+          <img src="img/icons/calender.png" alt="booking package icons">
         </a>
       </div>
 
       <div class="grid-col-1of4">
-        <a class="icon-nav" href="packages.html">
-          <img src="img/icons/contact.png" alt="silhouette of bride">
+        <a class="icon-nav" href="about.html">
+          <img src="img/icons/contact.png" alt="contact and about icon">
         </a>
       </div>
 
       <div class="grid-col-1of4">
-        <a class="icon-nav" href="packages.html">
-          <img src="img/icons/blog.png" alt="silhouette of bride">
+        <a class="icon-nav" href="blog.html">
+          <img src="img/icons/blog.png" alt="blog icon">
         </a>
       </div>
     
@@ -76,14 +76,18 @@
       <div class="grid-col-6of12">
       <div class="package-detail-info">
         <p class="section-label">Weddings</p>
-        <h1>Package One</h1>
-        <p class="price">$1800-2000</p>
+        <h1>Package Three</h1>
+        <p class="price">$2800-3500</p>
         <h4>Description</h4>
-        <p>Extended description of the different features and services that the package offers. Me doluptas minctemolor aceratis sin eseque sunto et aut volupta quiam con nem inusand ipistium et earum quiatati bea cus.
-        Ipitia ipsandustet molupti alitatium vel il idus, ere molorrum, si ni comnitatur, quiam, ut omnimin nam natur autas excearum laniatur? Onsequi blaut odit, tem qui non perios inverro blaborem vende la endunt es dolor amusae recate culliatur? Quid quatus nienimi nihiciam ut aceatque eat.
-        Simpore ndestionet undust, aut quam siminvendae de deroreped ut peraepe rundemporior amet ates serchil is des modi corrorumqui cus, ea voluptium, simus voluptas molupti atquam, omnienisin culpa sintiuscia quis</p>
-        <p>Additional fees with apply for locations outside of Vancouver, see below</p>
-        <p>50% non refundable save the date deposit required at time of booking</p>
+        <p>12+ hours of wedding coverage</p>
+        <p>bridal preparation shoot</p>
+        <p>2 hour photoshoot on location</p>
+        <p>300+ high quality images in colour and black & white</p>
+        <p>Professional processing of your wedding photos. Full resolution images saved on a custom flash drive.</p>
+        <p>5 images printed 8x10"</p>
+        <p>5 images printed 12x18"</p>
+        <p>Additional fees with apply for locations outside of Washington State</p>
+        <p>50% non refundable save the date deposit required at time of booking confirmation</p>
 
         <a class="button" href="calendar.html">Book A Session</a>
       </div>
@@ -91,5 +95,22 @@
 
     </div>
     </div>
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script>
+       $(document).ready(function(){
+         $(window).bind('scroll', function() {
+         var navHeight = $( window ).height() - 250;
+           if ($(window).scrollTop() > navHeight) {
+             $('nav').addClass('fixed');
+           }
+           else {
+             $('nav').removeClass('fixed');
+           }
+        });
+      });
+    </script>
 
   </body>
