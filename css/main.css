@@ -378,15 +378,16 @@ input{
   font-size: 0.80rem;
 }
 
-#header-main p {
+.page-description {
   font-family: "Apercu", Arial, sans-serif;
+  font-weight: thin;
   display: block;
   position: absolute;
   width: 100%;
-  top: 50%;
+  top: 48%;
   text-align: center;
   color: #ffffff;
-  font-size: 1.4rem;
+  font-size: 1rem;
 
 }
 

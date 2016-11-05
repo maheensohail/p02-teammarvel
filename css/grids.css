@@ -114,6 +114,10 @@
 	top: 20%;
 }
 
+.page-description {
+	top: 32%;
+}
+
 .grid-col-4of12{
 	width: 50%;
 	float: left;
@@ -161,6 +165,10 @@
 	color: #4B4F56;
 	font-size: 1.8rem;
 	top: 17%;
+}
+
+.page-description {
+	display: none;
 }
 
 .date-title h1 {
