@@ -265,6 +265,26 @@ input{
 
 }
 
+
+.logo {
+
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  color: #A8A7A7;
+  text-decoration: none;
+
+  font-family: "Arizonia", Arial, sans-serif;
+  text-transform: lowercase;
+  font-size: 3em;
+
+  margin-left: 0.5em;
+
+
+}
+
 .media-nav { 
 
     display: inline-block;
