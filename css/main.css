@@ -33,7 +33,7 @@ section {
 h1 {
   font-family: "Apercu", Verdana, sans-serif;
   font-size: 2.5rem;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.07rem;
   padding-top: 0.2em;
   margin-bottom: 0;
 }
@@ -71,9 +71,13 @@ p, ol, ul {
   line-height: 1.25rem;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 
 li {
-
   text-align: -webkit-match-parent;
 }
 
@@ -374,6 +378,21 @@ input{
   opacity: .7;
 }
 
+#header-main h1 {
+  text-transform: uppercase;
+}
+
+#header-main p {
+  font-family: "Apercu", Arial, sans-serif;
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
 #header-main .section-label {
   position: absolute;
   width: 100%;
@@ -667,7 +686,6 @@ input{
 .package-menu-item1 li {
   list-style: none;
   left: 0;
-  margin-left: -2.3em;
   padding: .5em 0;
 }
 
@@ -693,7 +711,6 @@ input{
 .package-menu-item2 li {
   list-style: none;
   left: 0;
-  margin-left: -2.3em;
   padding: .5em 0;
 }
 
@@ -778,15 +795,15 @@ input{
 .package-detail-info {
   position: relative;
   display: block;
-  top: 3em;
-  width: 80%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  padding: 0.2em 4em;
+  padding: 5em 4em 0 4em;
 }
 
 .package-detail-info h1{
+  position: relative;
   padding-top: .1em;
   margin-top: 0;
   padding-bottom: .2em;
@@ -794,11 +811,52 @@ input{
   text-align: center;
 }
 
-.package-detail-info .price{
-  font-size: 1.5em;
-  padding-top: .5em;
-  margin-top: 0;
-  padding-bottom: 1.5em;
+.price-box {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4em;
+  text-align: center;
+}
+
+.price-box .price{
+  display: inline-block;
+  font-size: 1.3em;
+  padding: .5em 2em .5em 0;
+  margin-top: .5em;
+}
+
+.price-box .textlink{
+  display: inline-block;
+  font-size: 1.3em;
+  padding: .5em 0 .5em 2em;
+  margin-top: 1em;
+  border-left: 1px solid #f1f2f2;
+}
+
+.pk-features {
+  display: block;
+  position: relative;
+  background-color: #f1f2f2;
+  width: 100%;
+  text-align: left;
+}
+
+.pk-features-info {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em 4em 4em 4em;
+}
+
+.pk-features-info h2 {
+  position: relative;
+  text-align: center;
+}
+
+.pk-features-info .grid-col-6of12 {
+  padding: .5em 2em;
 }
 
 .section-label {
