@@ -295,7 +295,11 @@ input{
 
     color: #bdbdbd;
     letter-spacing: 0.09em;
+    border-bottom-style:solid;
+    border-bottom-width:3px; 
+    border-bottom-color: #ffffff;
     text-decoration: none;
+
 
     text-transform: uppercase;
     margin-left: auto;
