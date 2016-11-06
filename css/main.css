@@ -1148,6 +1148,35 @@ input{
   text-align: left;
 }
 
+
+
+.testimonial p{
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  
+  z-index: 30;
+  
+  color: #7e7e7e;
+  text-align: left;
+  font-family: "Apercu", Verdana, sans-serif;
+  font-size: 0.85em;
+  font-style: italic;
+
+  text-align: center;
+
+  
+}
+
+.testimonial {
+  background-color: #f1f1f1;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
 .footr p{
   display: inline-block;
   position: relative;
