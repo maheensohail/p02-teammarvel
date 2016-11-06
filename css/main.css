@@ -442,10 +442,16 @@ input{
   text-decoration: none;
 }
 
-.textlink:active, .textlink:hover, .textlink:focus {
+.textlink:hover p{
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+/*.textlink:active, .textlink:hover, .textlink:focus {
   color: #FF9C5B;
   text-decoration: underline;
-}
+}*/
 
 .on-white {
   color: #7B8F8A;
@@ -596,6 +602,8 @@ input{
 
 .album-image:hover:before {
     opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
 
 
