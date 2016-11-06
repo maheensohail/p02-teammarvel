@@ -141,7 +141,6 @@ input{
     margin-bottom: .75em;
     padding-left: 0.5em;
     color: #a7a9ac;
-
 }
 
 
@@ -390,7 +389,10 @@ input{
   top: 50%;
   text-align: center;
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5em;
+  padding-left: 5em;
+  padding-right: 5em; 
 }
 
 #header-main .section-label {
@@ -401,7 +403,7 @@ input{
   font-size: 0.80rem;
 }
 
-.page-description {
+.page-description{
   font-family: "Apercu", Arial, sans-serif;
   font-weight: thin;
   display: block;
