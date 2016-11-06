@@ -597,6 +597,7 @@ input{
     opacity:1;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
+    height: 98%;
 }
 
 
