@@ -297,8 +297,8 @@ input{
 
     font-size: 0.7em;
 
-    color: #bdbdbd;
-    letter-spacing: 0.09em;
+    color: #A8A7A7;
+    letter-spacing: 0.1em;
     border-bottom-style:solid;
     border-bottom-width:3px; 
     border-bottom-color: #ffffff;
@@ -1154,8 +1154,9 @@ input{
   padding: .5em;
   z-index: 30;
   font-size: 0.8em;
-  color: #bdbdbd;
-;
+  color: #A9A9A9;
+  bottom: 1em;
+
 }
 
 .footr-content{
