@@ -570,15 +570,11 @@ input{
 }
 
 
-.album-text{
+.album-text p{
   left: 0;
   position:absolute;
   top: 50%;
   width: 100%;
-
-}
-
-.album-text p{
   color: #ffffff;
   font-size: 1.1rem;
   letter-spacing: 0.15em;
