@@ -239,6 +239,10 @@
 
 /*nav breakpoint*/
 @media (max-width: 34em) {
+	.logo {
+		display: none;
+	}
+
 	.button-nav {
 		display: none;
 	}
