@@ -74,6 +74,7 @@ p, ol, ul {
 ul {
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 
@@ -450,10 +451,10 @@ input{
   -webkit-transition: all 0.2s;
 }
 
-/*.textlink:active, .textlink:hover, .textlink:focus {
+.textlink:active, .textlink:hover, .textlink:focus {
   color: #FF9C5B;
   text-decoration: underline;
-}*/
+}
 
 .on-white {
   color: #7B8F8A;
@@ -484,40 +485,15 @@ input{
 .dropdown-button {
   display: inline-block;
   font-family: 'Apercu';
-  font-size: 0.8em;
+  font-size: 1.5em;
   letter-spacing: 0.15em;
-  padding: 1.5em 3.55em;
-  color: #FFFFFF; 
-  background-color: #ED834E;
+  padding: .5em .5em;
+  color: #7B8F8A; 
+  background-color: #ffffff;
   text-decoration: none;
-  margin-top: -30rem;
   border: none;
 }
 
-
-
-.dropdown-picker {
-  display: block;
-  font-family: 'Apercu';
-  font-size: 0.8em;
-  letter-spacing: 0.15em;
-  padding: 1.5em 3.55em;
-  text-align: left;
-  color: #ffffff; /*button text color is grey*/
-  background-color: #ffffff; /*button background color is white*/
-  text-decoration: none; /*setting to none removes underline from texts*/
-}
-
-.dropdown-quantity {
-  font-family: 'Apercu';
-  font-size: 0.8em;
-  letter-spacing: 0.15em;
-  padding: 1.5em 3.55em;
-  text-align: center;
-  color: #ffffff; /*button text color is grey*/
-  background-color: #ffffff; /*button background color is white*/
-  text-decoration: none; /*setting to none removes underline from texts*/
-}
 
 .dropdown {
   display: block;
@@ -530,12 +506,12 @@ input{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  width: -webkit-match-parent;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
   font-family: 'Apercu';
-  font-size: 0.8em;
+  font-size: 1em;
   letter-spacing: 0.15em;
 
 }
@@ -548,7 +524,7 @@ input{
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  text-decoration: underline;
 }
 
 .dropdown:hover .dropdown-content {
@@ -559,14 +535,14 @@ input{
 .dropdown:hover .dropdown-button {
   background-color: #e5e5e5; /*change background color of dropdown menu links on mouse-hover*/
 }
-
 /* Album thumbnail views, used on home / booking / album and booking details pages */
 
 .album-image {
   position:relative;
   text-align:center;
   float: left;
-  margin: -0.25em 0;
+  margin: -.13em 0;
+  padding: 0;
   width: 100%;
   object-fit: cover;
 }
@@ -575,7 +551,7 @@ input{
 .album-text p{
   left: 0;
   position:absolute;
-  top: 50%;
+  top: 45%;
   width: 100%;
   color: #ffffff;
   font-size: 1.1rem;
@@ -595,7 +571,7 @@ input{
     opacity:1;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
-    height: 99%;
+    height: 98.7%;
 }
 
 
@@ -606,7 +582,7 @@ input{
 }
 
 
-/* photos inside an album, will not be responsove*/
+/* photos inside an album, will not be responsive*/
 .album-content {
   position:relative;
   text-align:center;
@@ -650,7 +626,8 @@ input{
   width: 100%;
   height: 25em;
   position: relative;
-  background-color: #f1f2f2;
+  box-sizing: content-box;
+
   padding: 0em 3em;
   z-index: 30;
   font-size: .8rem;
@@ -678,9 +655,10 @@ input{
   left: 0;
   top: 0;
   object-fit: cover;
-  width: 100%;
+  box-sizing: content-box;
+  width: 90%;
   height: 15em;
-  margin-bottom: -.5em;
+  margin: 5%;
   z-index: 30;
 }
 
@@ -747,7 +725,7 @@ input{
   bottom: .7em;
 }
 
-.package-menu-item1:hover {
+/*.package-menu-item1:hover {
   background-color: black;
 }
 
@@ -765,7 +743,7 @@ input{
 
 .package-menu-item1:hover li {
   color: #ffffff;
-}
+}*/
 
 .emphasized {
   /*font-family: "Apercu", Verdana, sans-serif;*/
@@ -773,7 +751,7 @@ input{
   color: #4B4F56;
 }
 
-.package-menu-item2:hover {
+/*.package-menu-item2:hover {
   background-color: black;
 }
 
@@ -787,7 +765,7 @@ input{
 
 .package-menu-item2:hover p {
   color: #ffffff;
-}
+}*/
 
 
 
@@ -815,7 +793,7 @@ input{
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  text-align: left;
+  text-align: center;
   padding: 5em 4em 0 4em;
 }
 
@@ -825,7 +803,6 @@ input{
   margin-top: 0;
   padding-bottom: .2em;
   margin-bottom: 0;
-  text-align: center;
 }
 
 .price-box {
@@ -858,22 +835,51 @@ input{
   background-color: #f1f2f2;
   width: 100%;
   text-align: left;
+  padding-bottom: 2.5em;
+  overflow: auto;
 }
 
 .pk-features-info {
-  width: 75%;
+  position: relative;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
-  padding: 2em 4em 4em 4em;
+  padding: 1em 5em 4em 5em;
 }
 
-.pk-features-info h2 {
+.pk-features-info h2  {
   position: relative;
   text-align: center;
 }
 
 .pk-features-info .grid-col-6of12 {
-  padding: .5em 2em;
+  padding: .5em 3.5em;
+}
+
+.buying-info {
+  display: block;
+  position: relative;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.buying-info li {
+  list-style: none;
+  font-size: .8em;
+}
+
+.example-packages {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.example-packages h2 {
+  text-align: center;
+  padding: 1em;
 }
 
 .section-label {
@@ -890,117 +896,13 @@ input{
   margin-bottom: 0;
 }
 
-/*choose a date page*/
 
-/*wraps all the info on the page*/
-.page-info {
-  display: block;
-  position: relative;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/*Page heading*/
-.date-title {
-  display: block;
-  position: relative;
-  color: #4B4F56;
-  text-align: center;
-  top: 7em;
-  padding-bottom: 1em;
-}
-
-/*Year and month dropdown menus*/
-.date-title .dropdown {
-  display: inline-block;
-  position: relative;
-  margin-top: 3em;
-  margin-bottom: 2em;
-}
-
-.cal-grid {
-  display: block;
-  position: relative;
-  float: left;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3em;
-
-}
-
-.weekdays {
-  display: block;
-  position: relative;
-  margin-top: 0.2em;
-  margin-bottom: 0;
-  list-style: none; 
-}
-
-.weekdays li {
-  font-family: "Apercu", Verdana, sans-serif;
-  font-size: 1rem;
-  text-align: left;
-  color: #A8A7A7;
-
-  display: inline-block;
-  margin: 2em 0.2em;
-  padding: 0;
-
-}
-
-.cal-month {
-  display: block;
-  position: relative;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0.2em;
-  margin-bottom: 0;
-  list-style: none;
-}
-
-.cal-month li {
-  display: inline-block;
-  position: relative;
-  margin: 0 0.3em 0.3em 0;
-  
-}
-
-.day-cell {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  padding: 1.3em;
-  font-family: "Apercu", Verdana, sans-serif;
-  font-size: 2rem;
-  text-align: center;
-  text-decoration: none;
-  color: #A8A7A7;
-
-  border: 2px solid #A8A7A7;
-}
-
-.day-cell:active, .day-cell:hover, .day-cell:focus {
-  color: #ED834E;
-  border: 2px solid #ED834E;
-
-}
-
-.cal-buttons {
-  display: block;
-  position: relative;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 
 /*checkout page w/ forms*/
 
 .checkout-forms {
-  display: block;
+  display: inline-block;
   position: relative;
   left: 0;
   top: 8em;
@@ -1033,7 +935,7 @@ input{
 }
 
 .checkout-package-info {
-  display: block;
+  display: inline-block;
   position: relative;
   left: 0;
   top: 8em;
@@ -1041,6 +943,14 @@ input{
   margin-left: auto;
   margin-right: auto;
   padding: 0.2em 4em;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
 }
 
 .your-package {
@@ -1330,3 +1240,141 @@ span.image-text span {
   text-align: center;
   vertical-align: middle;
 }
+
+/*choose a date page*/
+
+
+
+/*Page heading*/
+.date-title {
+  display: block;
+  position: relative;
+  width: 100%;
+  color: #4B4F56;
+  text-align: center;
+  top: 2em;
+  padding-bottom: .5em;
+}
+
+.date-title h1 {
+  font-size: 2em;
+}
+
+/*Year and month dropdown menus*/
+.date-title .dropdown {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: .5em;
+}
+
+.weekdays {
+  display: block;
+  position: relative;
+  box-sizing: content-box;
+  width: 100%;
+  text-align: center;
+  margin-top: 0.2em;
+  list-style: none; 
+}
+
+.weekdays li {
+  font-family: "Apercu", Verdana, sans-serif;
+  font-size: .8rem;
+  text-align: center;
+  color: #A8A7A7;
+
+  display: inline-block;
+  margin-bottom: 1em;
+  padding: 0;
+
+}
+
+.cal-month {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.2em;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.cal-month li {
+  display: inline-block;
+  position: relative;
+  margin: 0 0.3em 0.3em 0;
+  padding: 0;
+  text-align: center;
+}
+
+.day-cell {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding: .8em;
+  font-family: "Apercu", Verdana, sans-serif;
+  font-size: 1.85rem;
+  text-decoration: none;
+  color: #A8A7A7;
+
+  border: 1.5px solid #A8A7A7;
+}
+
+.day-cell:active, .day-cell:hover, .day-cell:focus {
+  color: #ED834E;
+  border: 1.5px solid #ED834E;
+}
+
+.day-cell-unavailable {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding: .8em;
+  font-family: "Apercu", Verdana, sans-serif;
+  font-size: 1.85rem;
+  text-decoration: none;
+  color: #dcddde;
+
+  border: 1.5px solid #dcddde;
+}
+
+.day-cell-unavailable:active, .day-cell-unavailable:hover, .day-cell-unavailable:focus {
+  color: #dcddde;
+}
+
+.filler-cell {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding: .8em;
+  font-family: "Apercu", Verdana, sans-serif;
+  font-size: 1.85rem;
+  text-decoration: none;
+  color: #ffffff;
+
+  border: 1.5px solid #ffffff;
+}
+
+.filler-cell:active, .filler-cell:hover, .filler-cell:focus {
+  color: #ffffff;
+}
+
+.cal-buttons {
+  display: inline-block;
+  position: relative;
+  width: 52%;
+  float: right;
+  padding-top: .5em;
+}
+
+/*.cal-buttons .button {
+  font-size: 1em;
+  padding: 1em;
+}*/
+
+
+
