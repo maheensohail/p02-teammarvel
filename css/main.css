@@ -268,6 +268,28 @@ input{
 
 }
 
+.description-nav {
+
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    color: #c7c8ca;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    font-weight: bold;
+
+
+    font-size: 0.9em;
+    text-transform: uppercase;
+
+    padding: 0.2em;
+    margin: 1.2em;
+
+}
+
+
 
 .logo {
 
@@ -345,7 +367,7 @@ input{
 }
 
 
-.button-nav:active, .button-nav:hover, .button-nav:focus,.media-nav:active, .media-nav:hover, .media-nav:focus{
+.button-nav:active, .button-nav:hover, .button-nav:focus,.media-nav:active, .media-nav:hover, .media-nav:focus, .description-nav:active, .description-nav:hover, .description-nav:focus{
   transition: background-color 0.4s, color 0.4s ease-out;
   color: #FF9C5B;
   text-decoration: none;
@@ -354,6 +376,7 @@ input{
   border-bottom-style:solid;
   border-bottom-width:3px; 
 }
+
 
 .icon-nav {
     display: none;

@@ -111,11 +111,15 @@
 }
 
 #header-main .section-label {
-	top: 15%;
+	top: 5%;
+}
+
+#header-main h1{
+	top: 10%;
 }
 
 #header-main p {
-	top: 33%;
+	top: 25%;
 }
 
 .page-title {
@@ -161,6 +165,15 @@
 
 .price-box {
 	top: 1.5em;
+}
+
+#header-main p{
+	font-size: 1.1rem;
+	line-height: 1.5em;
+}
+
+.description-nav{
+    font-size: 0.7em;
 }
 
 }
@@ -236,6 +249,20 @@
 	display: none;
 }
 
+#header-main h1{
+	top: 10%;
+}
+
+#header-main p {
+	top: 20%;
+	color: black;
+	font-size: 0.8em;
+}
+
+.page-title {
+	top: 20%;
+}
+
 .product-image {
   position: relative;
   display: inline-block;
@@ -275,6 +302,14 @@
   width: 90%;
 }
 
+.testimonial img{
+	display: none;
+}
+
+.testimonial p{
+	padding-left: 6em;
+	padding-right: 6em;
+}
 }
 
 /*nav breakpoint*/
