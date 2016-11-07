@@ -61,18 +61,26 @@
     
     </nav>   
 
+      
+      <div class="grid-col-12of12">
+
       <div class="date-title">
-      <h1>Choose A Booking Date</h1>
+      <h1>Select A Booking Date</h1>
       <div class="dropdown">
-            <button class="dropdown-button">October</button>
+            <button class="dropdown-button">November</button>
             <div class="dropdown-content">
-              <a href="#">October</a>
               <a href="#">November</a>
               <a href="#">December</a>
               <a href="#">January</a>
               <a href="#">February</a>
               <a href="#">March</a>
               <a href="#">April</a>
+              <a href="#">May</a>
+              <a href="#">June</a>
+              <a href="#">July</a>
+              <a href="#">August</a>
+              <a href="#">September</a>
+              <a href="#">October</a>
             </div>
       </div>
       <div class="dropdown">
@@ -83,11 +91,11 @@
             </div>
       </div>
       </div>
-
+     
+        
       <div class="grid-row">
-      <div class="grid-col-12of12">
 
-      <div class="cal-grid">
+        <ul class="cal-month">
 
         <ul class="weekdays">
           <li class="grid-col-1of7">Sun</li>
@@ -99,7 +107,14 @@
           <li class="grid-col-1of7">Sat</li>
         </ul>
 
-        <ul class="cal-month">
+          <li class="grid-col-1of7">
+            <a class="filler-cell">00</a>
+          </li>
+
+          <li class="grid-col-1of7">
+            <a class="filler-cell">00</a>
+          </li>
+
           <li class="grid-col-1of7">
             <a class="day-cell" href="#">01</a>
           </li>
@@ -117,15 +132,15 @@
           </li>
 
           <li class="grid-col-1of7">
-            <a class="day-cell" href="#">05</a>
+            <a class="day-cell-unavailable">05</a>
           </li>
 
           <li class="grid-col-1of7">
-            <a class="day-cell" href="#">06</a>
+            <a class="day-cell-unavailable">06</a>
           </li>
 
           <li class="grid-col-1of7">
-            <a class="day-cell" href="#">07</a>
+            <a class="day-cell-unavailable">07</a>
           </li>
 
           <li class="grid-col-1of7">
@@ -145,7 +160,7 @@
           </li>
 
           <li class="grid-col-1of7">
-            <a class="day-cell" href="#">12</a>
+            <a class="day-cell-unavailable">12</a>
           </li>
 
           <li class="grid-col-1of7">
@@ -205,7 +220,7 @@
           </li>
 
           <li class="grid-col-1of7">
-            <a class="day-cell" href="#">27</a>
+            <a class="day-cell-unavailable">27</a>
           </li>
 
           <li class="grid-col-1of7">
@@ -225,16 +240,18 @@
           </li>
 
         </ul>
-      
-       
-        </div>
 
     </div>
-    </div>
+
+
+    <div class="grid-row">
 
     <div class="cal-buttons">
         <a class="button" href="packageDetail.html">Cancel</a>
         <a class="button" href="checkout.html">Next</a>
+    </div>
+
+    </div>
     </div>
 
   </body>
