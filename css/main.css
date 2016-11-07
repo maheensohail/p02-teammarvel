@@ -307,7 +307,7 @@ input{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 
-    font-size: 0.7em;
+    font-size: 1em;
 
     color: #A8A7A7;
     letter-spacing: 0.1em;
@@ -316,14 +316,6 @@ input{
     border-bottom-color: #ffffff;
     text-decoration: none;
 
-
-    text-transform: uppercase;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3em;
-    margin-bottom: 1em;
-
-    padding: 0.5em;
 
 }
 
