@@ -99,7 +99,7 @@
 */
 
 .grid-col-1of7{
-	width: 13.593%;
+	width: 13.6%;
 	float: left;
 }
 
@@ -108,6 +108,14 @@
   
 .content-grid {
   top: 45%;
+}
+
+#header-main .section-label {
+	top: 15%;
+}
+
+#header-main p {
+	top: 33%;
 }
 
 .page-title {
@@ -131,6 +139,12 @@
 	width: 100%;
 }
 
+.checkout-package-info {
+  margin-left: 0;
+  margin-right: auto;
+  padding: 0.2em 5em;
+}
+
 .product-image {
   position: relative;
   left: 15%;
@@ -140,12 +154,13 @@
 }
 
 .package-detail-info {
-  position: relative;
-  display: block;
-  left: 10%;
-  top: 7em;
+  top: 3em;
   width: 90%;
   padding: 0.2em 2em;
+}
+
+.price-box {
+	top: 1.5em;
 }
 
 }
@@ -159,6 +174,15 @@
 .page-title-blog {
 	color: #4B4F56;
 	font-size: 1.8rem;
+}
+
+#header-main .section-label {
+	color: #4B4F56;
+	top: 11%;
+}
+
+#header-main .desc {
+	display: none;
 }
 
 .page-title {
@@ -220,6 +244,14 @@
   top: 7em;
 }
 
+.pk-features-info {
+  position: relative;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 2em 4em 2em;
+}
+
 .pk-detail-caption {
   font-size: 1.1rem;
   left: 0%;
@@ -233,6 +265,14 @@
   left: 0%;
   width: 90%;
   padding: 0.2em 2em;
+}
+
+.package-detail-info h1 {
+  font-size: 2em;
+}
+
+.checkout-package-info {
+  width: 90%;
 }
 
 }
@@ -258,20 +298,31 @@
 
 /*Calender breakpoints RIP*/
 
-@media (max-width: 65em) {
+@media (max-width: 71em) {
+
+.cal-month {
+	width: 75%;
+}
 
 .day-cell {
-	padding: 1.3em .5em;
+	padding: .3 .5em;
 }
 
-.weekdays li {
-  font-size: 1rem;
-  margin: 2em 0.17em;
+.day-cell-unavailable{
+	padding: .3 .5em;
+}
+
+.filler-cell {
+	padding: .3 .5em;
 }
 
 }
 
-@media (max-width: 60em) {
+@media (max-width: 62em) {
+
+.cal-month {
+	width: 80%;
+}
 
 .grid-col-1of7 {
 	width: 12%;
@@ -282,16 +333,40 @@
 	padding: 1em .3em;
 }
 
-.weekdays li {
-  font-size: .8rem;
-  margin: 2em 0.3;
+.day-cell-unavailable{
+	font-size: 1.5rem;
+	padding: 1em .3em;
 }
+
+.filler-cell {
+	font-size: 1.5rem;
+	padding: 1em .3em;
+}
+
 
 }
 
 @media (max-width: 33em) {
 
+.cal-month {
+	width: 98%;
+}
+
+.grid-col-1of7 {
+	width: 13.6%;
+}
+
 .day-cell {
+	font-size: 1rem;
+	padding: 1em .3em;
+}
+
+.day-cell-unavailable{
+	font-size: 1rem;
+	padding: 1em .3em;
+}
+
+.filler-cell {
 	font-size: 1rem;
 	padding: 1em .3em;
 }
