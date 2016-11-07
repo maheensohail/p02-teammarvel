@@ -337,27 +337,6 @@ input{
 
 }
 
-/*.button-nav-logo{
-    display: inline-block;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-
-    font-family: "Arizonia", Arial, sans-serif;
-    font-size: 1.8rem;
-
-    color: #c7c8ca;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-    text-decoration: none;
-
-
-    text-transform: uppercase;
-
-    padding: 0.2em;
-    margin: 1.5em;
-
-} */
 
 .fixed {
   position: fixed; 
@@ -1371,11 +1350,5 @@ span.image-text span {
   float: right;
   padding-top: 1em;
 }
-
-/*.cal-buttons .button {
-  font-size: 1em;
-  padding: 1em;
-}*/
-
 
 
