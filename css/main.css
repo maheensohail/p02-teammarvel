@@ -113,8 +113,8 @@ code, samp {
 
 
 .contact-form{
-  max-width: 80%;
-  margin-left: 2.5%;
+  max-width: 70%;
+  margin-left: 3%;
 }
 
 
@@ -182,13 +182,10 @@ input{
     text-align: center;
     width: 200px;
     height: 200px;
-    background-color: 
-    ;
+    background-color:#4B4F56;
+
 }
 
-.dark-text-colour p{
-    color: white;
-}
 
 .light-text-colour {
     display: inline-block;
@@ -199,42 +196,35 @@ input{
     width: 200px;
     height: 200px;
     background-color: #A8A7A7;
+
 }
 
-.light-text-colour p{
+.light-text-colour p, .orange p, .dark-text-color p{
     color: white;
 }
 
 .orange {
+    position: absolute;
     display: inline-block;
-    margin: 0em;
     padding: 35px 05px;
     color: white;
     text-align: center;
     width: 200px;
     height: 200px;
     background-color: #ED834E;
+    margin-left: 0.25em;
+
 }
 
-.orange p{
-    color: white;
+.sample-textlink{
+  background-color: #34282C;
+  height: 2em;
 }
 
-.green {
-    display: inline-block;
-    margin: 0em;
-    padding: 35px 05px;
-    color: white;
-    text-align: center;
-    width: 200px;
-    height: 200px;
-    background-color: #A4B6A6;
+.sample-textlink p{
+  padding-right:5em;
+  color: #d3d3d3;
 }
-
-.green p{
-    color: white;
-}
-
 
 .news {
   width:100%;
@@ -1349,6 +1339,17 @@ span.image-text span {
   margin-right: auto;
   float: right;
   padding-top: 1em;
+}
+
+#listing img{
+  width: 30%;
+  display: inline-block;
+}
+
+#listing album-overlay{
+  width: 30%;
+  display: inline-block;
+
 }
 
 
