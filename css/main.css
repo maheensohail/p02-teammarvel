@@ -415,8 +415,8 @@ input{
   color: #ffffff;
   font-size: 1.25rem;
   line-height: 1.5em;
-  padding-left: 5em;
-  padding-right: 5em; 
+  padding-left: 10em;
+  padding-right: 10em; 
 }
 
 #header-main .section-label {
@@ -619,70 +619,32 @@ input{
   padding: 1rem;
 }
 
-/*blog-posts*/
 
-.blog-header {
-  background-color: white;
-}
+/*package categories page*/
 
-.page-title-blog {
-  position: absolute;
-  top: 15%;
-  width: 100%;
-  text-align: center;
-  color: #4B4F56;
-}
-
-.blog-content-grid {
-  display: block;
-  position: absolute;
-  top: 30%;
-  left: 0;
-  right: 0;
-  background-color: black;
-  padding-bottom: 1em;
-  margin-bottom: 0;
-}
-
-.blog-item1 {
-  display: inline-block;
-  width: 100%;
-  height: 25em;
+.all-categories {
   position: relative;
-  box-sizing: content-box;
-
-  padding: 0em 3em;
-  z-index: 30;
-  font-size: .8rem;
-  border-bottom: .2px solid #A8A7A7;
-  transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+  margin: 4em 3em;
 }
 
-.blog-item {
-  display: inline-block;
-  width: 100%;
-  height: 25em;
-  position: relative;
-  background-color: #ffffff;
-  padding: 0em 3em;
-  z-index: 30;
-  font-size: .8rem;
-  border-bottom: .2px solid #A8A7A7;
-  transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+.product-div {
+  padding: 0 1em;
+  margin-bottom: 5em;
 }
 
-.blog-item-img {
-  position: relative;
-  left: 0;
-  top: 0;
+.product-div img {
   object-fit: cover;
-  box-sizing: content-box;
-  width: 90%;
+  width: 100%;
   height: 15em;
-  margin: 5%;
-  z-index: 30;
+}
+
+.product-div h2 {
+  margin-top: 0;
+  padding-top: .5em;
+}
+
+.product-div p {
+  padding-right: 2em;
 }
 
 /*package listing page*/
@@ -962,7 +924,7 @@ input{
   position: relative;
   left: 0;
   top: 8em;
-  width: 90%;
+  width: 25em;
   margin-left: auto;
   margin-right: auto;
   padding: 0.2em 4em;
@@ -1288,7 +1250,7 @@ span.image-text span {
   width: 100%;
   color: #4B4F56;
   text-align: center;
-  top: 2em;
+  top: 8em;
   padding-bottom: .5em;
 }
 
@@ -1308,7 +1270,6 @@ span.image-text span {
 .weekdays {
   display: block;
   position: relative;
-  box-sizing: content-box;
   width: 100%;
   text-align: center;
   margin-top: 0.2em;
@@ -1331,10 +1292,11 @@ span.image-text span {
   display: block;
   position: relative;
   box-sizing: border-box;
+  top: 6em;
   width: 65%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0.2em;
+  margin-top: 1em;
   margin-bottom: 0;
   list-style: none;
 }
@@ -1346,6 +1308,7 @@ span.image-text span {
   padding: 0;
   text-align: center;
 }
+
 
 .day-cell {
   display: inline-block;
@@ -1400,11 +1363,14 @@ span.image-text span {
 }
 
 .cal-buttons {
-  display: inline-block;
+  display: block;
   position: relative;
-  width: 52%;
+  top: 6em;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
   float: right;
-  padding-top: .5em;
+  padding-top: 1em;
 }
 
 /*.cal-buttons .button {
