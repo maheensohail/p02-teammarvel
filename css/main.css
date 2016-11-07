@@ -1105,7 +1105,13 @@ input{
   margin-left: 40%;
   text-align: center;
 }
-.about-content h1, .about-content textarea{
+
+.about-content{
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.contact-content h1, .contact-content textarea{
   display: inline-block;
   margin-left: 10%;
   margin-top: 5%; 
@@ -1118,11 +1124,11 @@ input{
 }
 
 
-.about-content h1 {
+.contact-content h1 {
   font-size: 1.5em;
 }
 
-.about-content textarea{
+.contact-content textarea{
   height: 8em;
 }
 ul.img-list {
