@@ -32,6 +32,16 @@
 }
 
 @font-face {
+	font-family: 'Freight-Text-Bold';
+	font-weight: bold;
+	font-style: normal;
+	src: url('../fonts/Freight-Text-Bold.eot');
+	src: url('../fonts/Freight-Text-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Freight-Text-Bold.woff') format('woff'),
+		 url('../fonts/Freight-Text-Bold.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: 'Arizonia';
 	font-weight: regular;
 	font-style: normal;
