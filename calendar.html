@@ -17,7 +17,8 @@
 
   <body class="white-bg">
 
-  <div class="grid-col-1of5">
+    <nav class="nav-main grid-row">
+      <div class="grid-col-1of5">
         <a class="logo" href="home.html">massan</a>
       </div>
 
@@ -93,7 +94,7 @@
       </div>
      
         
-      <div class="grid-row">
+      <div class="grid-row grid-col-12of12">
 
         <ul class="cal-month">
 
@@ -244,14 +245,25 @@
     </div>
 
 
-    <div class="grid-row">
-
-    <div class="cal-buttons">
+    <div class="grid-row cal-buttons">
         <a class="button" href="packageDetail.html">Cancel</a>
         <a class="button" href="checkout.html">Next</a>
     </div>
 
     </div>
-    </div>
+
+    <script>
+       $(document).ready(function(){
+         $(window).bind('scroll', function() {
+         var navHeight = $( window ).height() - 700;
+           if ($(window).scrollTop() > navHeight) {
+             $('nav').addClass('fixed');
+           }
+           else {
+             $('nav').removeClass('fixed');
+           }
+        });
+      });
+    </script>
 
   </body>
