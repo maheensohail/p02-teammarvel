@@ -994,6 +994,7 @@ input{
   margin-bottom: 0.5em;
 }
 
+
 /*review your booking*/
 
 .review-forms {
@@ -1018,9 +1019,18 @@ input{
 }
 
 .form-theme-section p {
+  font-family: "Freight-Text-Bold", serif;
   color: #4B4F56;
+  margin-top: 0;
 }
 
+.review-buttons {
+  display: block;
+  width: 90%;
+  left: 33.33%;
+  margin-top: 7em;
+  padding: 0.2em 5em;
+}
 
 /*about page*/
 
