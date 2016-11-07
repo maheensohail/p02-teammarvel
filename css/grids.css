@@ -151,12 +151,21 @@
 .checkout-package-info {
   margin-left: 0;
   margin-right: auto;
-  padding: 0.2em 4em;
+  padding: 0.2em 3em;
 }
 
 .checkout-forms {
 	width: 100%;
 	padding: 0.2em 3em;
+	margin-left: 0;
+}
+
+.review-buttons {
+  display: block;
+  width: 100%;
+  margin-top: 7em;
+  margin-left: 0;
+  padding: 0.2em 3em;
 }
 
 .product-image {
@@ -188,7 +197,7 @@
 
 }
 
-@media (max-width: 51em) {
+@media (max-width: 52em) {
 
 .grid-col-8of12{
 	width: 100%;
