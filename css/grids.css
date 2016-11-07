@@ -111,20 +111,35 @@
 }
 
 #header-main .section-label {
-	top: 5%;
+	top: 18%;
 }
 
-#header-main h1{
-	top: 10%;
+#header-main h1 {
+	top: 15%;
+}
+
+#header-main .no-desc {
+	top: 22%;
 }
 
 #header-main p {
 	top: 25%;
+	padding-left: 5em;
+	padding-right: 5em;
+}
+
+#header-main .pk-desc {
+	top: 32%;
+}
+
+.description-nav{
+    font-size: 0.7em;
 }
 
 .page-title {
 	top: 20%;
 }
+
 
 .page-description {
 	top: 32%;
@@ -168,14 +183,6 @@
   padding: 0.2em 3em;
 }
 
-.product-image {
-  position: relative;
-  left: 15%;
-  top: 7em;
-  width: 100%;
-  height: auto;
-}
-
 .package-detail-info {
   top: 3em;
   width: 90%;
@@ -184,15 +191,6 @@
 
 .price-box {
 	top: 1.5em;
-}
-
-#header-main p{
-	font-size: 1.1rem;
-	line-height: 1.5em;
-}
-
-.description-nav{
-    font-size: 0.7em;
 }
 
 }
@@ -206,30 +204,46 @@
 
 }
 
-@media (max-width: 37em) {
+@media (max-width: 35em) {
   
 .content-grid {
   top: 33%;
 }
 
-.page-title-blog {
-	color: #4B4F56;
-	font-size: 1.8rem;
+#header-main {
+	background: white;
 }
 
 #header-main .section-label {
 	color: #4B4F56;
+	top: 10%;
+}
+
+#header-main img{
+	display: none;
+}
+
+#header-main h1 {
 	top: 11%;
 }
 
-#header-main .desc {
-	display: none;
+#header-main .no-desc {
+	top: 16%;
+}
+
+#header-main p {
+	top: 20%;
+	color: black;
+	font-size: 0.8em;
+}
+
+#header-main .pk-desc {
+	top: 25%;
 }
 
 .page-title {
 	color: #4B4F56;
 	font-size: 1.8rem;
-	top: 17%;
 }
 
 .page-description {
@@ -264,35 +278,6 @@
 	float: left;
 }
 
-#header-main {
-	background: white;
-}
-
-#header-main img{
-	display: none;
-}
-
-#header-main h1{
-	top: 10%;
-}
-
-#header-main p {
-	top: 20%;
-	color: black;
-	font-size: 0.8em;
-}
-
-.page-title {
-	top: 20%;
-}
-
-.product-image {
-  position: relative;
-  display: inline-block;
-  overflow: scroll;
-  left: 0;
-  top: 7em;
-}
 
 .pk-features-info {
   position: relative;
@@ -300,13 +285,6 @@
   margin-left: auto;
   margin-right: auto;
   padding: 1em 2em 4em 2em;
-}
-
-.pk-detail-caption {
-  font-size: 1.1rem;
-  left: 0%;
-  width: 90%;
-  padding-left: 2em;
 }
 
 .package-detail-info {
@@ -320,8 +298,6 @@
 .package-detail-info h1 {
   font-size: 2em;
 }
-
-
 
 .testimonial img{
 	display: none;
