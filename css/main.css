@@ -1061,8 +1061,8 @@ input{
 
 
 .testimonial p{
-  padding-left: 10em;
-  padding-right: 10em;
+  padding-left: 13em;
+  padding-right: 13em;
   padding-top: 2%;
   padding-bottom: 2%;
   width: 100%;
@@ -1072,13 +1072,20 @@ input{
   color: #7e7e7e;
   text-align: left;
   font-family: "Apercu", Verdana, sans-serif;
-  font-size: 0.85em;
+  font-size: 0.9em;
   font-style: italic;
 
-  text-align: center;
-
-  
+  text-align: left;
 }
+
+
+.testimonial img{
+  height: 5em;
+  position: absolute;
+  margin-left:  5em;
+  margin-top: 1.5em;
+}
+
 
 .testimonial {
   background-color: #f1f1f1;
