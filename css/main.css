@@ -1305,11 +1305,11 @@ span.image-text span {
   display: block;
   position: relative;
   top: 6em;
-  width: 65%;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
+  width: 90%;
+  margin-left: 42%;
+  margin-right: 42%;
   padding-top: 1em;
+  margin-bottom: 5em;
 }
 
 #listing img{
