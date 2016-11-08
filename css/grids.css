@@ -110,6 +110,7 @@
   top: 45%;
 }
 
+
 #header-main .section-label {
 	top: 18%;
 }
@@ -124,6 +125,7 @@
 
 #header-main p {
 	top: 25%;
+	font-size: 1em;
 	padding-left: 5em;
 	padding-right: 5em;
 }
@@ -195,6 +197,7 @@
 
 }
 
+
 @media (max-width: 52em) {
 
 .grid-col-8of12{
@@ -207,8 +210,9 @@
 @media (max-width: 36em) {
   
 .content-grid {
-  top: 33%;
+  top: 36%;
 }
+
 
 #header-main {
 	background: white;
@@ -225,6 +229,7 @@
 
 #header-main h1 {
 	top: 11%;
+	margin-bottom: 1em;
 }
 
 #header-main .no-desc {
@@ -235,6 +240,9 @@
 	top: 20%;
 	color: black;
 	font-size: 0.8em;
+	padding-top: .5em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
 }
 
 #header-main .pk-desc {
@@ -248,6 +256,11 @@
 
 .page-description {
 	display: none;
+}
+
+.all-categories {
+  position: relative;
+  margin: 4em 1em;
 }
 
 .date-title h1 {
@@ -297,6 +310,10 @@
 
 .package-detail-info h1 {
   font-size: 2em;
+}
+
+.thanks-info {
+	width: 90%;
 }
 
 .testimonial img{
