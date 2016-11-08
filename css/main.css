@@ -1323,4 +1323,31 @@ span.image-text span {
 
 }
 
+.styleguide-header{
+  background-color: #F0FFF2;
+  height: 10em;
+  margin-top: -1.5em;
+}
+
+
+.styleguide-heading{
+  display: inline-block;
+  box-sizing: border-box;
+
+  color: #A8A7A7;
+
+  font-family: "Apercu", Verdana, sans-serif;
+  text-transform: lowercase;
+  font-size: 2em;
+
+  margin-left: 3%;
+}
+
+#sitemap{
+  padding-top: 8em;
+}
+
+
+}
+
 
