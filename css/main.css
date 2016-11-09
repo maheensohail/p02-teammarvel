@@ -16,7 +16,6 @@ body {
 /* HEADER TEST - making nav background change when scroll reaches certain hieght*/
 .fixed {
   background: white;
-
 }
 
 nav {
@@ -29,7 +28,6 @@ section {
   display: block;
   width: 100%;
   height: auto;
-  overflow: auto;
 }
 
 h1 {
@@ -130,6 +128,20 @@ input{
     margin-bottom: .75em;
     padding-left: 0.5em;
     color: #a7a9ac;
+}
+
+.contact-form{
+  max-width: 70%;
+  margin-left: 3%;
+}
+
+
+.contact-form-button{
+  display: block;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  z-index: 30;
+  font-size: 0.75em;
 }
 
 
@@ -246,7 +258,6 @@ input{
 
 }
 
-/* styling for text appearing in header bar / cover photo area */
 .description-nav {
 
     display: inline-block;
@@ -291,7 +302,7 @@ input{
 
 .media-nav { 
 
-    display: inline-block;
+    display: block;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -304,8 +315,6 @@ input{
     border-bottom-width:3px; 
     border-bottom-color: #ffffff;
     text-decoration: none;
-
-
 }
 
 
@@ -514,8 +523,8 @@ input{
 .dropdown:hover .dropdown-button {
   background-color: #e5e5e5; /*change background color of dropdown menu links on mouse-hover*/
 }
-
 /* Album thumbnail views, used on home / booking / album and booking details pages */
+
 .album-image {
   position:relative;
   text-align:center;
@@ -651,13 +660,6 @@ input{
 
 
 /*package detail page*/
-.product-image {
-  position: relative;
-  left: 0;
-  top: 7em;
-  width: 100%;
-  height: auto;
-}
 
 #header-main .pk-desc {
   top: 46%;
@@ -776,7 +778,10 @@ input{
 }
 
 
+
+
 /*checkout page w/ forms*/
+
 .checkout-forms {
   display: inline-block;
   position: relative;
@@ -810,6 +815,10 @@ input{
   padding-top: 1em;
 }
 
+.form-name {
+  border: .5px solid #cccccc;
+}
+
 .checkout-package-info {
   display: inline-block;
   position: relative;
@@ -819,14 +828,6 @@ input{
   margin-left: auto;
   margin-right: auto;
   padding: 0.2em 4em;
-}
-
-.float-right {
-  float: right;
-}
-
-.float-left {
-  float: left;
 }
 
 .your-package {
@@ -885,8 +886,14 @@ input{
   margin-bottom: 0.5em;
 }
 
+.checkout-buttons {
+  margin-bottom: 8em;
+}
+
 
 /*review your booking*/
+
+
 .checkout-package-info {
   display: block;
   position: relative;
@@ -947,8 +954,8 @@ input{
   margin-bottom: 0;
 }
 
+/*about page*/
 
-/* Styling for About Page and sending a message to the company */
 .about-content p, .contact-content p{
   display: inline-block;
   border-style: none;
@@ -994,19 +1001,30 @@ input{
   display: inline-block;
 }
 
-.contact-form{
-  max-width: 70%;
-  margin-left: 3%;
+.blog-post {
+  height: 33em;
 }
 
-
-.contact-form button{
+.footr {
   display: block;
-  margin-left: 10%;
-  margin-bottom: 5%;
-  z-index: 30;
-  font-size: 0.75em;
+  position: relative;
+  width: 100%;
+  top: 1em;
+  padding: 0.2em 4em;
 }
+
+
+.footr p{
+  text-align: center;
+  font-size: 0.8em;
+  color: #A9A9A9;
+  bottom: 1em;
+}
+
+.footr .media-nav {
+  text-align: center;
+}
+
 
 .about-content{
   margin-top: 2em;
@@ -1033,29 +1051,6 @@ input{
 .contact-content textarea{
   height: 8em;
 }
-
-
-/* Styling for footr that appears under every page*/
-
-.footr {
-  position: relative;
-  top: 1em;
-  padding: 0.2em 4em;
-  display: inline-block;
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-
-.footr p{
-  text-align: center;
-  font-size: 0.8em;
-  color: #A9A9A9;
-  bottom: 1em;
-}
-
 
 .price {
     font-family: "Apercu", Verdana, sans-serif;
@@ -1104,11 +1099,15 @@ input{
 .weekdays {
   display: block;
   position: relative;
-  width: 100%;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 6em;
   text-align: center;
   margin-top: 0.2em;
   list-style: none; 
 }
+
 
 .weekdays li {
   font-family: "Apercu", Verdana, sans-serif;
@@ -1116,7 +1115,7 @@ input{
   text-align: center;
   color: #A8A7A7;
   display: inline-block;
-  margin-bottom: 1em;
+  margin: 0.15em 0.15em 1em 0.15em;
   padding: 0;
 
 }
@@ -1124,7 +1123,6 @@ input{
 .cal-month {
   display: block;
   position: relative;
-  box-sizing: border-box;
   top: 6em;
   width: 65%;
   margin-left: auto;
@@ -1137,7 +1135,7 @@ input{
 .cal-month li {
   display: inline-block;
   position: relative;
-  margin: 0 0.3em 0.3em 0;
+  margin: 0.15em 0.15em 0.15em 0.15em;
   padding: 0;
   text-align: center;
 }
@@ -1197,12 +1195,13 @@ input{
   display: block;
   position: relative;
   top: 6em;
-  width: 90%;
-  margin-left: 42%;
-  margin-right: 42%;
-  padding-top: 1em;
-  margin-bottom: 5em;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 7em;
 }
+
 
 .styleguide-header{
   background-color: #F0FFF2;
