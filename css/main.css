@@ -1201,16 +1201,30 @@ input{
 .styleguide-heading{
   display: inline-block;
   box-sizing: border-box;
-  top: 0;
-
   color: #A8A7A7;
 
   font-family: "Apercu", Verdana, sans-serif;
-  text-transform: lowercase;
-  font-size: 2em;
+  font-size: 1.8em;
   line-height: 1.2em;
 
   margin-left: 3%;
+}
+
+.citations-heading{
+  display: inline-block;
+  position: fixed;
+  color: #A8A7A7;
+
+  font-family: "Apercu", Verdana, sans-serif;
+  font-size: 2em;
+  line-height: 1.2em;
+  margin-left: 3%;
+
+  margin-top: 0em;
+
+  background-color: white;
+
+
 }
 
 #sitemap{
@@ -1218,6 +1232,6 @@ input{
 }
 
 #citations {
-    padding-top: 4em;
+    padding-top: 2.5em;
     padding-left: 1.2em;
 }
