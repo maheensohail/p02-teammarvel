@@ -109,6 +109,10 @@
 	width: 50%;
 }
 
+.pk-features-info .grid-col-6of12 {
+  padding: .5em 2em;
+}
+
 }
 
 
@@ -176,9 +180,9 @@
 }
 
 .checkout-package-info {
-  margin-left: 0;
-  margin-right: auto;
-  padding: 0.2em 3em;
+ 	margin-left: 0;
+ 	margin-right: auto;
+ 	padding: 0.2em 3em;
 }
 
 .checkout-forms {
@@ -288,6 +292,7 @@
 	margin-top: 0;
 }
 
+
 .date-title h1 {
 	font-size: 1.8rem;
 }
@@ -323,10 +328,30 @@
 
 .pk-features-info {
   position: relative;
-  width: 85%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
-  padding: 1em 2em 4em 2em;
+  padding: 1em 2em 0em 2em;
+}
+
+
+.pk-features-info .grid-col-6of12 {
+  padding: .5em 1em;
+}
+
+.price-box .price{
+  display: inline-block;
+  font-size: 1.1em;
+  padding: .5em 1em .5em 0;
+  margin-top: .5em;
+}
+
+.price-box .textlink{
+  display: inline-block;
+  font-size: 1.1em;
+  padding: .5em 0 .5em 1em;
+  margin-top: 1em;
+  border-left: 1px solid #f1f2f2;
 }
 
 .package-detail-info {
