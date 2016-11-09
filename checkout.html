@@ -18,6 +18,8 @@
   <body class="white-bg">
 
     <nav class="nav-main grid-row">  
+      
+      <!--full sized text based nav-->
       <div class="grid-col-1of5">
         <a class="logo" href="home.html">massan</a>
       </div>
@@ -34,6 +36,7 @@
         <a class="button-nav" href="packageCategories.html">Bookings</a>
       </div>
 
+      <!--icon based nav for mobile-->
       <div class="grid-col-1of4">
         <a class="icon-nav" href="home.html">
           <img src="img/icons/home.png" alt="home icon">
@@ -57,6 +60,7 @@
           <img src="img/icons/blog.png" alt="blog icon">
         </a>
       </div>
+
     
     </nav>
 
@@ -64,72 +68,73 @@
     <div class="date-title">
       <h1>Booking</h1>
     </div>
-
-    
-    <div class="grid-col-12of12">
     
     <div class="grid-row">
-    <div class="grid-col-4of12">
-    <div class="checkout-package-info">
-        <h2>Your Package Info</h2>
+      
+      <div class="grid-col-4of12">
+        <div class="checkout-package-info">
+          <h2>Your Package Info</h2>
+          <div class="your-package">
+            <p class="section-label">Wedding</p>
+            <p class="checkout-package-title">The Royal Wedding</p>
+            <p class="checkout-booked-date">Oct. 23, 2016</p>
+          </div>
+        <p class="checkout-total">Total</p>
+        <p class="checkout-price">$300</p>
+        </div>
+      </div>
+
+      <div class="grid-col-8of12">
+        <div class="checkout-forms">
+
+          <h2>Fill Out Your Booking Info</h2>
         
-        <div class="your-package">
-        <p class="section-label">Wedding</p>
-        <p class="checkout-package-title">The Royal Wedding</p>
-        <p class="checkout-booked-date">Oct. 23, 2016</p>
-        </div>
-        
-          <p class="checkout-total">Total</p>
-          <p class="checkout-price">$300</p>
+          <div class="form-theme-section">
+            <h3>Contact Info</h3>
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" class="form-name" placeholder="604-123-4545">
+            <label for="email">Email:</label>
+            <input type="text" id="email" class="form-name" placeholder="janesmith@mail.com">
+          </div>
 
-    </div>
-    </div>
+          <div class="form-theme-section">
+            <h3>Time Specifications</h3>
+            <label for="cer-time">Start Time of Ceremony:</label>
+            <input type="text" id="cer-time" class="form-name" placeholder="Starting at 10:30am">
+            <label for="rec-time">Start Time of Reception:</label>
+            <input type="text" id="rec-time" class="form-name" placeholder="Starting at 10:30am">
+          </div>
 
-      <div class="grid-col-8of12 float-left">
-      <div class="checkout-forms">
+          <div class="form-theme-section">
+            <h3>Location</h3>
+            <label for="city">City:</label>
+            <input type="text" id="city" class="form-name" placeholder="Seattle">
+            <label for="country">Country:</label>
+            <input type="text" id="country" class="form-name" placeholder="United States">
+          </div>
 
-        <h2>Fill Out Your Booking Info</h2>
-        
-        <div class="form-theme-section">
-        <h3>Contact Info</h3>
-        <label for="form-name">Phone Number:</label>
-        <input type="text" id="form-name" placeholder="604-123-4545">
-        <label for="form-name">Email:</label>
-        <input type="text" id="form-name" placeholder="janesmith@mail.com">
-        </div>
-
-        <div class="form-theme-section">
-        <h3>Time Specifications</h3>
-        <label for="form-name">Start Time of Ceremony:</label>
-        <input type="text" id="form-name" placeholder="Starting at 10:30am">
-        <label for="form-name">Start Time of Reception:</label>
-        <input type="text" id="form-name" placeholder="Starting at 10:30am">
-        </div>
-
-        <div class="form-theme-section">
-        <h3>Location</h3>
-        <label for="form-name">City:</label>
-        <input type="text" id="form-name" placeholder="Seattle">
-        <label for="form-name">Country:</label>
-        <input type="text" id="form-name" placeholder="United States">
-        </div>
-
-        <div class="form-theme-section">
-        <h3>Other Info</h3>
-        <label for="form-name">Other Relevant Information:</label>
-        <textarea type="text" id="form-name" name="user-message" placeholder="Tell us anything else you think we need to know"></textarea>
-        </div>
-        
+          <div class="form-theme-section">
+            <h3>Other Info</h3>
+            <label for="other">Other Relevant Information:</label>
+            <textarea id="other" class="form-name" name="user-message" placeholder="Tell us anything else you think we need to know"></textarea>
+          </div>
        
-          <a class="button" href="calendar.html">Back</a>
-          <a class="button" href="reviewBooking.html">Review</a>
+          <div class="checkout-buttons">
+            <a class="button" href="calendar.html">Back</a>
+            <a class="button" href="reviewBooking.html">Review</a>
+          </div>
      
-
-      </div>
-      </div>
+        </div>
       </div>
 
     </div>
+
+      <!--footer w/ styleguide link-->
+      <div class="footr">            
+        <a class="media-nav" href="stylesheet.html">Style Guide</a> 
+        <p>© Massan Photography. All rights reserved. 2016</p>        
+      </div>
+
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
