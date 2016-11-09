@@ -403,18 +403,36 @@
 
 .cal-month {
 	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cal-month {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cal-buttons {
+	width: 75%;
+}
+
+.weekdays {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .day-cell {
-	padding: .3 .5em;
+	padding: .3em .5em;
 }
 
 .day-cell-unavailable{
-	padding: .3 .5em;
+	padding: .3em .5em;
 }
 
 .filler-cell {
-	padding: .3 .5em;
+	padding: .3em .5em;
 }
 
 }
@@ -422,30 +440,37 @@
 @media (max-width: 62em) {
 
 .cal-month {
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+.weekdays {
+	top: 6em;
+	width: 100%;
+}
+
+.cal-buttons {
+	width: 100%;
+	margin-right: 2%;
+	margin-left: 2%;
 }
 
 .grid-col-1of7 {
-	width: 12%;
+	width: 13%;
 }
 
 .day-cell {
 	font-size: 1.5rem;
-	padding: 1em .3em;
 }
 
 .day-cell-unavailable{
 	font-size: 1.5rem;
-	padding: 1em .3em;
 }
 
 .filler-cell {
 	font-size: 1.5rem;
-	padding: 1em .3em;
 }
-
 
 }
 
@@ -453,26 +478,41 @@
 
 .cal-month {
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-right: 1%;
+	margin-left: 1%;
 }
 
 .cal-month li {
   display: inline-block;
   position: relative;
-  margin: 0 0.2em 0.2em 0;
+  margin: 0.115em 0.115em 0.115em 0.115em;
   padding: 0;
   text-align: center;
+}
+
+.weekdays {
+	top: 10em;
+	font-size: .5rem;
+}
+
+.weekdays li {
+  display: inline-block;
+  position: relative;
+  margin: 0.1em 0.1em 0.1em 0.1em;
+  padding: 0;
+  text-align: center;
+}
+
+.cal-buttons {
+	width: 100%;
+	margin-right: 1%;
+	margin-left: 1%;
 }
 
 
 .day-cell {
 	font-size: 1rem;
 	padding: 1em 0em;
-}
-
-.weekdays {
-	font-size: .5rem;
 }
 
 .day-cell-unavailable{
