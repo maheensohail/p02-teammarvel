@@ -232,6 +232,15 @@
 
 }
 
+@media (max-width: 38em) {
+
+.long-title {
+	margin-top: 5em;
+}
+
+
+}
+
 
 @media (max-width: 36em) {
   
