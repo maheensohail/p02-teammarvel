@@ -136,7 +136,7 @@ input{
 }
 
 
-.contact-form-button{
+.contact-form button{
   display: block;
   margin-left: 10%;
   margin-bottom: 5%;
@@ -406,54 +406,6 @@ input{
   padding-bottom: 1em;
   margin-bottom: 0;
 }
-
-/*
-.textlink {
-  color: #ffffff;
-  font-size: 1.05rem;
-  letter-spacing: 0.05em;
-  text-decoration: none;
-}
-
-.textlink:hover p{
-  opacity: 0;
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-}
-
-.textlink:active, .textlink:hover, .textlink:focus {
-  color: #FF9C5B;
-  text-decoration: underline;
-
-}
-*/
-
-.textlink a {
-  display:inline-block;
-  text-decoration:none;
-  font-size: 1.05rem;
-  letter-spacing: 0.05em;
-  font-family: "Apercu-light", Verdana, sans-serif;
-  color: #A8A7A7;
-}
-
-.textlink a:hover {
-    color: #FF9C5B;
-  }
-
-.textlink a:hover:after {
-  background: #FF9C5B;
-}
- 
-.textlink a:after {
-  display:block;
-  content:'';
-  width:100%;
-  height:4px;
-  background:white;
-  margin-top:-2px;
-}
-
 
 .on-white {
   color: #7B8F8A;
@@ -1017,6 +969,9 @@ input{
   height: 33em;
 }
 
+
+/*styling for all footr elements*/
+
 .footr {
   display: block;
   position: relative;
@@ -1031,6 +986,32 @@ input{
   font-size: 0.8em;
   color: #A9A9A9;
   bottom: 1em;
+}
+
+.textlink a {
+  display:inline-block;
+  text-decoration:none;
+  font-size: 1.05rem;
+  letter-spacing: 0.05em;
+  font-family: "Apercu-light", Verdana, sans-serif;
+  color: #A8A7A7;
+}
+
+.textlink a:hover {
+    color: #FF9C5B;
+  }
+
+.textlink a:hover:after {
+  background: #FF9C5B;
+}
+ 
+.textlink a:after {
+  display:block;
+  content:'';
+  width:100%;
+  height:4px;
+  background:white;
+  margin-top:-2px;
 }
 
 .about-content{
