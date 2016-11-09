@@ -133,20 +133,6 @@ input{
     color: #a7a9ac;
 }
 
-.contact-form{
-  max-width: 70%;
-  margin-left: 3%;
-}
-
-
-.contact-form button{
-  display: block;
-  margin-left: 10%;
-  margin-bottom: 5%;
-  z-index: 30;
-  font-size: 0.75em;
-}
-
 
 #stylesheet-body {
   margin: 1.5em;
@@ -261,6 +247,7 @@ input{
 
 }
 
+/* styling for text appearing in header bar / cover photo area */
 .description-nav {
 
     display: inline-block;
@@ -528,8 +515,8 @@ input{
 .dropdown:hover .dropdown-button {
   background-color: #e5e5e5; /*change background color of dropdown menu links on mouse-hover*/
 }
-/* Album thumbnail views, used on home / booking / album and booking details pages */
 
+/* Album thumbnail views, used on home / booking / album and booking details pages */
 .album-image {
   position:relative;
   text-align:center;
@@ -665,7 +652,6 @@ input{
 
 
 /*package detail page*/
-
 .product-image {
   position: relative;
   left: 0;
@@ -791,10 +777,7 @@ input{
 }
 
 
-
-
 /*checkout page w/ forms*/
-
 .checkout-forms {
   display: inline-block;
   position: relative;
@@ -905,8 +888,6 @@ input{
 
 
 /*review your booking*/
-
-
 .checkout-package-info {
   display: block;
   position: relative;
@@ -967,8 +948,8 @@ input{
   margin-bottom: 0;
 }
 
-/*about page*/
 
+/* Styling for About Page and sending a message to the company */
 .about-content p, .contact-content p{
   display: inline-block;
   border-style: none;
@@ -1014,28 +995,18 @@ input{
   display: inline-block;
 }
 
-.footr {
+.contact-form{
+  max-width: 70%;
+  margin-left: 3%;
+}
+
+
+.contact-form button{
   display: block;
-  position: relative;
-  width: 100%;
-  top: 1em;
-  padding: 0.2em 4em;
-}
-
-.footr-content{
-  display: inline-block;
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.footr p{
-  text-align: center;
-  font-size: 0.8em;
-  color: #A9A9A9;
-  bottom: 1em;
-
+  margin-left: 10%;
+  margin-bottom: 5%;
+  z-index: 30;
+  font-size: 0.75em;
 }
 
 .about-content{
@@ -1063,6 +1034,29 @@ input{
 .contact-content textarea{
   height: 8em;
 }
+
+
+/* Styling for footr that appears under every page*/
+
+.footr {
+  position: relative;
+  top: 1em;
+  padding: 0.2em 4em;
+  display: inline-block;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+.footr p{
+  text-align: center;
+  font-size: 0.8em;
+  color: #A9A9A9;
+  bottom: 1em;
+}
+
 
 .price {
     font-family: "Apercu", Verdana, sans-serif;
