@@ -674,12 +674,8 @@ input{
   height: auto;
 }
 
-.pk-detail-caption {
-  position: relative;
-  display: block;
-  left: .3em;
-  font-size: 1.5rem;
-  padding: .7em .3em;
+#header-main .pk-desc {
+  top: 46%;
 }
 
 .package-detail-info {
@@ -727,15 +723,17 @@ input{
 .pk-features {
   display: block;
   position: relative;
+  overflow: auto;
   background-color: #f1f2f2;
   width: 100%;
   text-align: left;
   padding-bottom: 2.5em;
-  overflow: auto;
 }
 
 .pk-features-info {
+  display: block;
   position: relative;
+  overflow: auto;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -748,7 +746,7 @@ input{
 }
 
 .pk-features-info .grid-col-6of12 {
-  padding: .5em 3.5em;
+  padding: .5em 4em;
 }
 
 .buying-info {
@@ -769,6 +767,7 @@ input{
 .example-packages {
   display: block;
   position: relative;
+  overflow: auto;
   width: 100%;
 }
 
